@@ -1,0 +1,232 @@
+/*----------------------------------------
+    // Subscription area
+----------------------------------------*/
+.advanced_blocks_subscription.type-1 {
+    border-radius: 10px;
+    padding: 65px 0 50px 0;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, .40);
+}
+
+.advanced_blocks_subscription.type-1 .advanced_blocks_field {
+    height: 50px;
+    line-height: 50px;
+}
+
+.advanced_blocks_subscription.type-1 .advanced_blocks_label {
+    margin-bottom: 13px;
+}
+
+/*-----------------------------------------
+    // Subsribe
+-----------------------------------------*/
+
+.advanced_blocks_subscription.type-2 {
+    padding-bottom: 60px;
+    border: 1px solid #cffff8;
+    box-shadow: 0 209px 150px rgba(0,209,178,.100);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.advanced_blocks_subscription.type-2 .block_head {
+    padding: 40px 0 40px 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.advanced_blocks_subscription.type-2 .block_head h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    position: relative;
+    letter-spacing: 10px;
+    font-weight: 400;
+}
+
+.advanced_blocks_subscription.type-2 .block_head .overlay {
+    background: rgba(0,209,178,.60);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.advanced_blocks_field_group p {
+    margin-bottom: 0;
+    padding: 30px 20px 15px 20px;
+    text-align: center;
+}
+
+.advanced_blocks_field_group .advanced_blocks_field {
+    background: #f8f8f8;
+    border: none;
+    margin-bottom: 0;
+    line-height: 48px;
+    height: 48px;
+    text-align: center;
+    color: #9a9a9a;
+}
+
+.advanced_blocks_field_group {
+    margin-bottom: 20px;
+}
+
+.advanced_blocks_subscription.type-2 .advanced_blocks_btn.advanced_blocks_btn_solid {
+    background: #00d1b2;
+    border-color: #00d1b2;
+}
+
+/*----------------------------------------------
+----------------------------------------------*/
+.advanced_blocks_search_box.type-1.newsletter.advanced_blocks_subscription {
+    box-shadow: none;
+}
+
+.advanced_blocks_subscription_area.type-2 .overlay {
+    background: rgba(0,0,0,.20);
+}
+
+.advanced_blocks_search_box.type-1.newsletter.advanced_blocks_subscription .advanced_blocks_form_group {
+    position: relative;
+    margin-left: 45px;
+}
+
+.advanced_blocks_search_box.type-1.newsletter.advanced_blocks_subscription .advanced_blocks_prefend {
+    position: absolute;
+    right: -2px;
+}
+
+.advanced_blocks_search_box.type-1.newsletter.advanced_blocks_subscription .advanced_blocks_prefend .advanced_blocks_btn {
+    border-radius: 50px;
+    padding: 1px 65px;
+    min-width: initial;
+    background: #3e4dfe;
+    border-color: #3e4dfe;
+    position: relative;
+    z-index: 9;
+    box-shadow: -5px 0px 9px rgba(0,0,0,.20);
+}
+.advanced_blocks_search_box.type-1.newsletter.advanced_blocks_subscription {
+    padding: 100px  0 100px 0;
+}
+
+.advanced_blocks_search_box.type-1.newsletter.advanced_blocks_subscription .advanced_blocks_field {
+    border-radius: 50px;
+    color: #9a9a9a;
+    padding-left: 30px;
+    font-size: 16px;
+    box-shadow: 0 0 0px 10px rgba(255,255,255,.25);
+}
+
+.advanced_blocks_search_box.type-1.newsletter.advanced_blocks_subscription .advanced_blocks_prefend .advanced_blocks_btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    border-radius: 30px;
+    background: #4953bf;
+    z-index: -1;
+    transition: all .20s linear;
+}
+
+.advanced_blocks_search_box.type-1.newsletter.advanced_blocks_subscription .advanced_blocks_prefend .advanced_blocks_btn:hover::before {
+    height: 100%;
+    width: 100%;
+}
+
+/*-----------------------------------------------
+-----------------------------------------------*/
+.advanced_blocks_subscription.type-3 {
+    background: rgb(243,235,252);
+    background: -moz-linear-gradient(-45deg,  rgba(243,235,252,1) 0%, rgba(237,244,252,1) 100%);
+    background: -webkit-linear-gradient(-45deg,  rgba(243,235,252,1) 0%,rgba(237,244,252,1) 100%);
+    background: linear-gradient(135deg,  rgba(243,235,252,1) 0%,rgba(237,244,252,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3ebfc', endColorstr='#edf4fc',GradientType=1 );
+    box-shadow: 0px 15px 50px -20px rgba(58,0,155,.30);
+}
+.advanced_blocks_subscription.type-3 .newsletter_model {
+    top: -50px;
+    left: 0;
+}
+
+.advanced_blocks_subscription.type-3 .block_inner_content {
+    padding: 100px 100px 100px 0;
+}
+
+.advanced_blocks_subscription.type-3 h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.advanced_blocks_subscription.type-3 .block_inner_content .advanced_blocks_field {
+    background: transparent;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-radius: 0;
+    margin-bottom: 20px;
+    border-color: #ffb09e;
+}
+
+.advanced_blocks_subscription.type-3 .block_inner_content .advanced_blocks_btn {
+    padding: 0 40px;
+}
+/*----------------------------------------------
+----------------------------------------------*/
+
+/*-----------------------------------------------
+-----------------------------------------------*/
+
+.advanced_blocks_subscription.type-4 .advanced_blocks_btn {
+    padding: 0 50px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.advanced_blocks_subscription.type-4 .advanced_blocks_field {
+    background: transparent;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-radius: 0;
+    border-color: #e8e4c3;
+    font-size: 16px;
+    color: #9a9a9a;
+}
+
+.advanced_blocks_subscription.type-4 h3 {
+    font-size: 32px;
+}
+
+.advanced_blocks_subscription.type-4 {
+    padding: 60px 100px 60px 100px;
+    border-radius: 26px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+/*----------------------------------------------
+----------------------------------------------*/
+
+/*-----------------------------------------------
+-----------------------------------------------*/
+/*----------------------------------------------
+----------------------------------------------*/
+
+/*-----------------------------------------------
+-----------------------------------------------*/
+/*----------------------------------------------
+----------------------------------------------*/
+
+
+/*-----------------------------------------------
+-----------------------------------------------*/
+/*----------------------------------------------
+----------------------------------------------*/
+/*----------------------------------------------
+----------------------------------------------*/
+@media (max-width: 767px){
+	.advanced_blocks_subscription.type-1 {
+	    padding: 30px 15px 30px 15px;
+	    text-align: center;
+	}
+}

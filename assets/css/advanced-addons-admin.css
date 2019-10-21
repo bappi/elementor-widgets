@@ -1,0 +1,113 @@
+
+.aae-blocks-license-box-head {
+    padding: 0 50px;
+}
+
+.aae-blocks-license-box-head p {
+    font-size: 16px;
+    text-align: left;
+}
+
+.aae-blocks-license-box-head h3 {
+    letter-spacing: 2px;
+    font-weight: 300 !important;
+    color: #494444;
+}
+
+.aae-blocks-license-box-head ul {
+    align-items: center;
+    justify-content: center;
+}
+
+.aae-blocks-license-box-head ul li {
+}
+
+.aae-blocks-license-box-head ul li {
+    font-size: 24px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #dedede;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.aae-blocks-license-box-head ul li.circle-danger {
+    color: #F43D3A;
+    border-color: #F43D3A;
+}
+
+.aae-blocks-license-box-head ul li.circle-warning {
+    color: #F1C23C;
+    border-color: #F1C23C;
+}
+
+.aae-blocks-license-box-head ul li.circle-success {
+    color: #75E676;
+    border-color: #75E676;
+}
+
+.aae-blocks-license-box-head ul li:last-child {
+    margin-right: 0;
+}
+
+.aae-blocks-license-instruction ul {
+    list-style: decimal;
+}
+
+.aae-blocks-license-instruction ul li {
+    font-size: 16px;
+    color: #727272;
+    line-height: 30px;
+}
+
+.aae-blocks-license-instruction ul li a {
+    color: #7447B4 !important;
+}
+
+.aae-blocks-license-instruction ul li strong {
+    font-weight: 600;
+    color: #333;
+}
+
+/**/
+.aae-settings-tab .advanced_blocks_promo_box.type-1 {
+    padding: 30px 40px 30px 40px;
+    margin: 40px 0 10px 0;
+}
+
+.license-activation-box i {
+    font-size: 19px;
+    top: 10px;
+    left: 26px;
+}
+
+.license-activation-box input {padding-left: 36px;border-radius: 0;}
+
+.aae-settings-tab .advanced_blocks_service.type-1:hover {
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, .10);
+}
+
+.aae-settings-tab .advanced_blocks_service.type-4 p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.aae-settings-tab .advanced_blocks_service.type-4  .featured_title {
+    margin: 20px 0 20px 0;
+}
+
+.aae-settings-tab .advanced_blocks_service.type-4 .snow-dot:nth-child(7) {
+    display: none;
+}
+
+.aae-settings-tab .advanced_blocks_service.type-4 {
+    min-height: 360px;
+}
+
+.aae-settings-tab .advanced_blocks_promo_box.type-1 .advanced_blocks_btn {
+    background: #7BE77C;
+    border-color: #7BE77C;
+}

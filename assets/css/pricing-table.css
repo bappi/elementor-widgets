@@ -1,0 +1,1903 @@
+
+/*----------------------------------------
+    // Start Pricing Table Type-1
+----------------------------------------*/
+.advanced_blocks_pricing_tbl.type-1 {
+    background: #ffffff;
+    padding: 50px 5px 50px 5px;
+}
+
+.advanced_blocks_pricing_tbl.type-1.featured h4 {
+    color: #2f2f2f;
+}
+
+.advanced_blocks_pricing_tbl.type-1 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.advanced_blocks_pricing_tbl.type-1 h4 {
+    color: #afafaf;
+    font-size: 22px;
+}
+
+.advanced_blocks_pricing_tbl.type-1 .block_circle {
+    height: 196px;
+    width: 196px;
+    margin-top: 40px;
+}
+
+.advanced_blocks_pricing_tbl.type-1 .block_body li {
+    color: #777777;
+    font-size: 16px;
+    padding-bottom: 35px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.advanced_blocks_pricing_tbl.type-1 h3 {
+    font-size: 50px;
+    color: #2f2f2f;
+    line-height: 50px;
+    z-index: 5;
+}
+
+.advanced_blocks_pricing_tbl.type-1 .block_circle p {
+    font-size: 16px;
+}
+.advanced_blocks_pricing_tbl.type-1 .block_body {
+    padding-top: 40px;
+}
+
+.advanced_blocks_pricing_tbl.type-1 .advanced_pricing_block_btn {
+    color: #777777;
+    height: 50px;
+    padding: 0 60px;
+    border-radius: 30px;
+    border: none;
+}
+
+.advanced_blocks_pricing_tbl.type-1.featured {
+    background: #f4f4f4;
+    position: relative;
+    overflow: hidden;
+}
+
+.advanced_blocks_pricing_tbl.type-1.featured  .block_circle {
+    background: #ffffff;
+}
+
+.advanced_blocks_pricing_tbl.type-1.featured  .block_body li {
+    color: #2f2f2f;
+}
+
+.advanced_blocks_pricing_tbl.type-1.featured  .advanced_pricing_block_btn {
+    background: #ffffff;
+    color: #2f2f2f;
+    border: 1px solid #ddd;
+}
+.advanced_blocks_pricing_tbl.type-1 .block_currency {
+    font-weight: 900;
+    font-size: 70px;
+    color: #eaeaea;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.advanced_blocks_pricing_tbl.type-1.featured::before {
+    content: "featured";
+    text-transform: uppercase;
+    background: #2f2f2f;
+    color: #dddddd;
+    line-height: 33px;
+    display: inline-block;
+    padding: 0 40px;
+    position: absolute;
+    bottom: 17px;
+    right: -35px;
+    transform: rotate(-43deg);
+    font-size: 14px;
+}
+/*-----------------------------------------
+    //End Prcing Table Type-2
+-----------------------------------------*/
+
+.advanced_blocks_pricing_tbl.type-2 {
+    padding: 50px 5px 50px 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.advanced_blocks_pricing_tbl.type-2 h4 {
+    color: #777777;
+    padding-top: 22px;
+    padding-bottom: 2px;
+    line-height: 30px;
+}
+
+
+.advanced_blocks_pricing_tbl.type-2 
+ .block_head p {
+    color: #8f8f8f;
+}
+
+.advanced_blocks_pricing_tbl.type-2 .block_body li {
+    color: #777777;
+    font-size: 16px;
+    padding-bottom: 24px;
+    line-height: 18px;
+    font-weight: 400;
+}
+.advanced_blocks_pricing_tbl.type-2 .advanced_pricing_block_btn {
+    color: #777777;
+    height: 40px;
+    padding: 0 30px;
+    border-radius: 0;
+    border: 1px solid #2f2f2f;
+    background: #ffffff;
+}
+/*------------------------------------------------
+    // Pcicing Table Type - 3
+------------------------------------------------*/
+.advanced_blocks_pricing_tbl.type-3 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.advanced_blocks_pricing_tbl.type-3 .p-table-image img {
+    width: 100%;
+}
+
+.advanced_blocks_pricing_tbl.type-3 h4 {
+    font-size: 22px;
+    color: #2f2f2f;
+    line-height: 77px;
+}
+
+.advanced_blocks_pricing_tbl.type-3 
+ .block_body ul {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.advanced_blocks_pricing_tbl.type-3 
+ .block_body ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 50px;
+}
+
+.advanced_blocks_pricing_tbl.type-3 
+ .block_body ul li span {
+    color: #727272;
+    text-align: left;
+    font-size: 14px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.advanced_blocks_pricing_tbl.type-3 
+ .block_body ul li span + span {
+    width: 36px;
+}
+
+.advanced_blocks_pricing_tbl.type-3 .p-table-price {
+    padding: 40px 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.advanced_blocks_pricing_tbl.type-3 .p-table-price h3 {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.advanced_blocks_pricing_tbl.type-3 
+ .block_body ul li:last-child span {
+    border-bottom: 0;
+}
+
+.advanced_blocks_pricing_tbl.type-3 .p-table-price p {
+    color: #8f8f8f;
+    font-size: 14px;
+}
+
+.advanced_blocks_pricing_tbl.type-3 
+ .block_body {
+    padding: 0 40px;
+}
+
+.advanced_blocks_pricing_tbl.type-3 .block_footer {
+    padding-top: 30px;
+}
+
+.advanced_blocks_pricing_tbl.type-3 .block_footer .advanced_pricing_block_btn {
+    color: #777777;
+    height: 50px;
+    padding: 0 35px;
+    border: none;
+    background: #f3f3f3;
+}
+
+.advanced_blocks_pricing_tbl.type-3.featured {
+    box-shadow: 0px 0px 60px rgba(0,0,0,.40);
+}
+/*----------------------------------------------
+    // Pricing Table Type- 4
+----------------------------------------------*/
+.advanced_blocks_pricing_tbl.type-4 .block_body ul li:not(.featured-list) {
+    font-size: 14px;
+    color: #777777;
+}
+
+.advanced_blocks_pricing_tbl.type-4 .block_head h4 {
+    background: #8b87ff;
+    color: #fff;
+    font-size: 22px;
+    line-height: 60px;
+    border-top: 1px solid #b7b5fd;
+    border-bottom: 1px solid #b7b5fd;
+}
+
+.advanced_blocks_pricing_tbl.type-4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 20px;
+}
+
+.advanced_blocks_pricing_tbl.type-4 .block_circle {
+    height: 120px;
+    width: 120px;
+    background: #ffffff;
+    border: 1px solid #f4f4f4;
+    margin: 30px 0;
+}
+
+.advanced_blocks_pricing_tbl.type-4 .block_circle h3 {
+    color: #8b87ff;
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.advanced_blocks_pricing_tbl.type-4 .block_body ul li {
+    line-height: 24px;
+    border-bottom: 2px solid #e9e8fd;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.advanced_blocks_pricing_tbl.type-4 .block_body ul li.featured-list {
+    font-weight: 600;
+    color: #777777;
+    font-size: 16px;
+}
+
+.advanced_blocks_pricing_tbl.type-4 .block_body ul {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.advanced_blocks_pricing_tbl.type-4 .block_body ul li.available::after {
+    content: "\f00c";
+    left: 0;
+    bottom: 0;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    display: block;
+    line-height: 18px;
+    color: #615cff;
+}
+.advanced_blocks_pricing_tbl.type-4 .block_body ul li.not-available::after {
+    content: "\f00d";
+    left: 0;
+    bottom: 0;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    display: block;
+    line-height: 18px;
+    color: #ff6868;
+}
+.advanced_blocks_pricing_tbl.type-4 .advanced_pricing_block_btn {
+    color: #ffffff;
+    height: 50px;
+    padding: 0 60px;
+    border-radius: 30px;
+    border: none;
+    background: #8b87ff;
+}
+
+.advanced_blocks_pricing_tbl.type-4 .block_footer {
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.advanced_blocks_pricing_tbl.type-4.featured .block_body ul li.featured-list, .advanced_blocks_pricing_tbl.type-4.featured .block_body ul li:not(.featured-list), .advanced_blocks_pricing_tbl.type-4.featured .block_body ul li.available::after, .advanced_blocks_pricing_tbl.type-4.featured .block_body ul li.available::after,.advanced_blocks_pricing_tbl.type-4.featured .block_body ul li.not-available::after {
+    color: #ffffff;
+}
+
+.advanced_blocks_pricing_tbl.type-4.featured .block_head h4 {
+    background: #f7f7ff;
+    color: #8b87ff;
+}
+
+.advanced_blocks_pricing_tbl.type-4.featured {
+    background: #8b87ff;
+    box-shadow: 0px 0px 30px rgba(0,0,0,.30);
+}
+
+.advanced_blocks_pricing_tbl.type-4.featured .advanced_pricing_block_btn {
+    background: #ffffff;
+    color: #8b87ff;
+    box-shadow: 0px 0px 30px rgba(0,0,0,.30);
+}
+/*------------------------------------------------
+    //Pricing Table Type-5
+------------------------------------------------*/
+
+
+.p-table.type-5 .overlay{
+    background: rgba(47,47,47,.60);
+}
+.advanced_blocks_pricing_tbl.type-5 .advanced_pricing_block_btn {
+    height: 50px;
+    padding: 0 60px;
+    border-radius: 6px;
+    border: none;
+    color: #727272;
+    margin-top: 30px;
+}
+
+.advanced_blocks_pricing_tbl.type-5 .block_body {
+    background: rgba(255,255,255,.20);
+    padding: 0 30px 30px 30px;
+}
+
+.advanced_blocks_pricing_tbl.type-5 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.advanced_blocks_pricing_tbl.type-5  .item-availability {
+    background: rgba(249,175,1,.95);
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 0 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.advanced_blocks_pricing_tbl.type-5 .p-table-image img {
+    width: 100%;
+}
+
+.advanced_blocks_pricing_tbl.type-5 .block_body .block_body-inner {
+    background: #f9af01;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 30px 30px 0 30px;
+}
+
+.advanced_blocks_pricing_tbl.type-5 .block_body h4 {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.advanced_blocks_pricing_tbl.type-5 .block_body p {
+    font-size: 18px;
+}
+
+.advanced_blocks_pricing_tbl.type-5 .block_body ul {
+    border-top: 2px solid #fbb71a;
+    margin-top: 30px;
+}
+
+.advanced_blocks_pricing_tbl.type-5 .block_body ul li span {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.advanced_blocks_pricing_tbl.type-5 .block_body ul li span + span {
+    margin-left: 10px;
+}
+
+.advanced_blocks_pricing_tbl.type-5   .block_footer {
+    background: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    color: #727272;
+    padding: 30px 30px;
+}
+
+.advanced_blocks_pricing_tbl.type-5   .block_footer p {
+    text-align: left;
+}
+.advanced_blocks_pricing_tbl.type-5.featured .block_body .block_body-inner {
+    background: #bb514d;
+    box-shadow: 0px 0px 50px rgba(0,0,0,.15);
+}
+
+.advanced_blocks_pricing_tbl.type-5.featured .block_body {
+    background: #bb514d;
+}
+
+.advanced_blocks_pricing_tbl.type-5.featured .block_body ul {
+    border-color: #c55c58;
+}
+.advanced_blocks_pricing_tbl.type-5.featured .block_head .item-availability {
+    background: rgba(187,81,77,.95);
+}
+
+/*-------------------------------------
+    //Start Pricing Table Type-6
+-------------------------------------*/
+
+.advanced_blocks_pricing_tbl.type-6 .block_footer {
+    padding-left: 40px;
+}
+
+.advanced_blocks_pricing_tbl.type-6 h3 {
+    line-height: 45px;
+}
+
+.advanced_blocks_pricing_tbl.type-6 .block_body {
+    padding: 40px 40px 40px 40px;
+}
+
+.advanced_blocks_pricing_tbl.type-6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 40px;
+}
+
+.advanced_blocks_pricing_tbl.type-6 .block_head {
+    background: #7e61d2;
+    line-height: 70px;
+    padding-left: 40px;
+    font-size: 22px;
+}
+
+.advanced_blocks_pricing_tbl.type-6 .block_body ul {
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.advanced_blocks_pricing_tbl.type-6 .block_body ul li {
+    color: #727272;
+    font-size: 14px;
+    line-height: 40px;
+    position: relative;
+}
+
+.advanced_blocks_pricing_tbl.type-6 .block_body ul li:not(.available)::before {
+    content: "\f057";
+    color: #e44f60;
+}
+
+.advanced_blocks_pricing_tbl.type-6 .block_body ul li::before {
+    content: "\f058";
+    position: absolute;
+    right: 0;
+    font-size: 14px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #7e61d2;
+}
+
+.advanced_blocks_pricing_tbl.type-6 .block_footer .advanced_pricing_block_btn {
+    color: #777777;
+    height: 40px;
+    padding: 0 30px;
+    border-radius: 0;
+    border: 1px solid #777777;
+    background: transparent;
+    font-size: 16px;
+}
+
+/*-----------------------------------------------
+    //Start Pricing Table Type - 8
+-----------------------------------------------*/
+.advanced_blocks_pricing_tbl.type-8 .block_circle h3 {
+    font-size: 40px;
+}
+
+.advanced_blocks_pricing_tbl.type-8 .block_body li {
+    font-size: 16px;
+    color: #fff;
+    line-height: 43px;
+}
+
+.advanced_blocks_pricing_tbl.type-8 .advanced_pricing_block_btn {
+    color: #777777;
+    font-size: 16px;
+    border: 0;
+    line-height: 50px;
+    padding: 0 30px;
+    border-radius: 3px;
+}
+
+.advanced_blocks_pricing_tbl.type-8 .block_circle::after {
+    content: "";
+    width: 100%;
+    background: #ffffff;
+    height: 5px;
+    top: 113px;
+    position: absolute;
+    z-index: 50;
+}
+
+.advanced_blocks_pricing_tbl.type-8 .block_head h4::before {
+    visibility: hidden;
+}
+
+.advanced_blocks_pricing_tbl.type-8 .block_body ul {
+    padding-bottom: 34px;
+}
+
+.advanced_blocks_pricing_tbl.type-8 .block_circle {
+    text-align: center;
+    height: 231px;
+    width: 231px;
+    background: #ffffff;
+    left: 50%;
+    top: -42px;
+    transform: translateX(-50%);
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 40px;
+    z-index: 0;
+    box-shadow: 0px 8px 19px rgba(0,0,0,.15);
+}
+
+.advanced_blocks_pricing_tbl.type-8 .block_body {
+    background: #fe3259; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #fe3259 0%, #ff9d8e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #fe3259 0%,#ff9d8e 100%);
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.advanced_blocks_pricing_tbl.type-8 {
+    border-radius: 6px;
+    border: 1px solid #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.advanced_blocks_pricing_tbl.type-8 .block_head {
+    box-shadow: 0px -2px 3px 0px rgba(0,0,0,.15);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border: 1px solid #fff;
+    position: relative;
+    z-index: 2;
+    margin: 1px;
+    margin-bottom: 0px;
+}
+
+.advanced_blocks_pricing_tbl.type-8 .block_head h4 {
+    background: #ffffff;
+    line-height: 70px;
+    font-size: 24px;
+    position: relative;
+    z-index: 5;
+    overflow: hidden;
+}
+.advanced_blocks_pricing_tbl.type-8.standard {
+    box-shadow: 0px 16px 40px rgba(0,0,0,.10);
+    border: none;
+}
+
+.advanced_blocks_pricing_tbl.type-8.standard .block_body {
+    background: #ff4877;
+    background: -moz-linear-gradient(-45deg,  #ff4877 0%, #f624ea 100%);
+    background: -webkit-linear-gradient(-45deg,  #ff4877 0%,#f624ea 100%);
+    background: linear-gradient(135deg,  #ff4877 0%,#f624ea 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4877', endColorstr='#f624ea',GradientType=1 );
+}
+
+.advanced_blocks_pricing_tbl.type-8.advanced .block_body {
+    background: #9732fe;
+    background: -moz-linear-gradient(-45deg,  #9732fe 0%, #f38eff 100%);
+    background: -webkit-linear-gradient(-45deg,  #9732fe 0%,#f38eff 100%);
+    background: linear-gradient(135deg,  #9732fe 0%,#f38eff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9732fe', endColorstr='#f38eff',GradientType=1 );
+}
+
+.advanced_blocks_pricing_tbl.type-8.standard .block_head h4::before {
+    background: #ff4877;
+    background: -moz-linear-gradient(-45deg,  #ff4877 0%, #f624ea 100%);
+    background: -webkit-linear-gradient(-45deg,  #ff4877 0%,#f624ea 100%);
+    background: linear-gradient(135deg,  #ff4877 0%,#f624ea 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4877', endColorstr='#f624ea',GradientType=1 );
+}
+
+.advanced_blocks_pricing_tbl.type-8.advanced .block_head h4::before {
+    background: #9732fe;
+    background: -moz-linear-gradient(-45deg,  #9732fe 0%, #f38eff 100%);
+    background: -webkit-linear-gradient(-45deg,  #9732fe 0%,#f38eff 100%);
+    background: linear-gradient(135deg,  #9732fe 0%,#f38eff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9732fe', endColorstr='#f38eff',GradientType=1 );
+}
+
+.advanced_blocks_pricing_tbl.type-8.standard  .advanced_pricing_block_btn {box-shadow: 0px 16px 40px rgba(0,0,0,.10);}
+/*-------------------------------------
+    //Start Pricing Table Type -9
+-------------------------------------*/
+
+.advanced_blocks_pricing_tbl.type-9 {
+    border-radius: 6px;
+    position: relative;
+    box-shadow: 0px 0 8px rgba(0,0,0,.08);
+}
+
+.advanced_blocks_pricing_tbl.type-9 .block_head {
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,.15);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border: 1px solid #fff;
+    position: relative;
+    z-index: 2;
+    margin: 1px;
+    margin-bottom: 0px;
+    width: 100%;
+    padding: 13px 0px 20px 0;
+}
+
+.advanced_blocks_pricing_tbl.type-9 .block_body {
+    padding-top: 135px;
+}
+
+.advanced_blocks_pricing_tbl.type-9 .block_circle {
+    height: 240px;
+    width: 240px;
+    left: 50%;
+    top: -63px;
+    transform: translateX(-50%);
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    z-index: 0;
+    box-shadow: 0px 8px 19px rgba(0,0,0,.15);
+    background: #a817b0; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #a817b0 0%, #6538ea 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #a817b0 0%,#6538ea 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #a817b0 0%,#6538ea 100%);
+    padding-top: 20px;
+}
+
+.advanced_blocks_pricing_tbl.type-9 .block_circle p {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.advanced_blocks_pricing_tbl.type-9 .block_circle span {
+    font-size: 14px;
+    bottom: 16px;
+    width: 90%;
+    text-align: center;
+    line-height: 33px;
+    left: 19px;
+}
+
+.advanced_blocks_pricing_tbl.type-9 .block_circle .pk-type-1 {
+    background-position: -3px 0px !important;
+}
+
+.advanced_blocks_pricing_tbl.type-9.featured .block_head{
+    background: #a817b0;
+    background: -moz-linear-gradient(45deg, #a817b0 0%, #6538ea 100%);
+    background: -webkit-linear-gradient(45deg, #a817b0 0%,#6538ea 100%);
+    background: linear-gradient(45deg, #a817b0 0%,#6538ea 100%);
+    border: 0;
+}
+.advanced_blocks_pricing_tbl.type-9.featured .block_head h4{
+    color: #fff;
+}
+.advanced_blocks_pricing_tbl.type-9.featured  .block_circle{
+        border: 2px solid #9023c6;
+    background: #ffffff;
+}
+.advanced_blocks_pricing_tbl.type-9 .block_circle span::before {
+    position: absolute;
+    left: -35px;
+    border-right: 22px solid #000;
+    border-top: 22px solid #000;
+    border-bottom: 12px solid transparent;
+    border-left: 15px solid transparent;
+}
+
+.advanced_blocks_pricing_tbl.type-9 .block_head h4 small {
+    font-size: 18px;
+}
+
+.advanced_blocks_pricing_tbl.type-9 .block_head h4 sub {
+    font-size: 18px;
+    margin-left: -13px;
+    font-weight: 600;
+}
+
+.advanced_blocks_pricing_tbl.type-9 .block_body ul li {
+    line-height: 50px;
+    color: #727272;
+    font-size: 14px;
+    border-bottom: 1px solid #efefef;
+    text-align: left;
+    position: relative;
+}
+
+.advanced_blocks_pricing_tbl.type-9 .block_body ul {
+    padding: 0 50px;
+    padding-bottom: 20px;
+}
+
+.advanced_blocks_pricing_tbl.type-9 .advanced_pricing_block_btn {
+    background: #00aee6;
+    border: 0px;
+    line-height: 50px;
+    padding: 0 30px;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.advanced_blocks_pricing_tbl.type-9 .block_footer {
+    color: #777777;
+    font-size: 14px;
+    padding: 30px 40px;
+}
+
+.advanced_blocks_pricing_tbl.type-9 .block_body ul li:last-child {
+    border-bottom: 0;
+}
+
+.advanced_blocks_pricing_tbl.type-9 .block_body ul li::before {
+    content: "\f058";
+    position: absolute;
+    right: 0;
+    font-size: 14px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #00aee6;
+}
+
+.advanced_blocks_pricing_tbl.type-9 .block_body ul li.not-available::before {
+    content: "\f057";
+    color: #f97383;
+}
+.advanced_blocks_pricing_tbl.type-9.featured .block_circle p {
+    color: #782fd9;
+}
+
+.advanced_blocks_pricing_tbl.type-9.featured {
+    box-shadow: 0px 0px 40px rgba(0,0,0,.20);
+}
+
+/*--------------------------------------------
+    //Start Pricing Table  Type -10
+--------------------------------------------*/
+
+.advanced_blocks_pricing_tbl.type-10 {
+    font-family: 'Source Sans Pro', sans-serif;
+    box-shadow: 0px 0px 8px rgba(0,0,0,.08);
+}
+
+.advanced_blocks_pricing_tbl.type-10.p-table-pk-1 {
+    background: #d330fc;background: -moz-linear-gradient(top,  #d330fc 0%, #537fcf 99%);
+    background: -webkit-linear-gradient(top,  #d330fc 0%,#537fcf 99%);
+    background: linear-gradient(to bottom,  #d330fc 0%,#537fcf 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d330fc', endColorstr='#537fcf',GradientType=0 );
+}
+
+.advanced_blocks_pricing_tbl.type-10 .block_head  
+ span {
+    font-size: 14px;
+    line-height: 33px;
+    display: inline-block;
+    padding: 0 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+}
+
+.advanced_blocks_pricing_tbl.type-10.p-table-pk-1 .block_head 
+ span {
+    background: #ffb93e;
+}
+
+.advanced_blocks_pricing_tbl.type-10.p-table-pk-1 .block_head h4 {
+    font-size: 24px;
+}
+
+.advanced_blocks_pricing_tbl.type-10 .block_head {
+    padding-top: 62px;
+    padding-bottom: 35px;
+}
+.advanced_blocks_pricing_tbl.type-10  .block_body ul li {
+    color: #ffffff;
+    padding-bottom: 15px;
+    padding-left: 27px;
+    position: relative;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.advanced_blocks_pricing_tbl.type-10.p-table-pk-1 .block_body ul li {
+    border-bottom: 1px solid rgba(0,0,0,.08);
+}
+
+.advanced_blocks_pricing_tbl.type-10.p-table-pk-1 .block_body ul {
+    padding: 0 30px;
+    padding-bottom: 50px;
+}
+
+.advanced_blocks_pricing_tbl.type-10  .block_body ul li::before {
+    content: "\f00c";
+    left: 0;
+    top: 5px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    display: block;
+    line-height: 18px;
+    color: #ffffff;
+    position: absolute;
+    font-size: 16px;
+}
+
+.advanced_blocks_pricing_tbl.type-10.p-table-pk-1 .block_footer {
+    padding-bottom: 40px;
+}
+
+.advanced_blocks_pricing_tbl.type-10.p-table-pk-1 .block_footer h2 {
+    font-size: 100px;
+}
+
+.advanced_blocks_pricing_tbl.type-10.p-table-pk-1 .block_footer h2 sup {
+    color: #865fe1;
+    font-size: 18px;
+    margin-left: -20px;
+}
+
+.advanced_blocks_pricing_tbl.type-10.p-table-pk-1 .block_footer h2 sup span {
+    color: #777777;font-size: 14px;
+}
+
+.advanced_blocks_pricing_tbl.type-10.p-table-pk-1 .block_footer .advanced_pricing_block_btn {
+    color: #777777;
+    height: 50px;
+    padding: 0 55px;
+    border-radius: 0;
+    border: 1px solid #cfcfcf;
+    background: transparent;
+    font-size: 16px;
+}
+
+.advanced_blocks_pricing_tbl.type-10 .block_head  
+ span::before {
+    content: "";
+    position: absolute;
+    right: -38px;
+    border-left: 0px solid #000;
+    border-top: 33px solid #000;
+    border-right: 39px solid transparent;
+}
+
+.advanced_blocks_pricing_tbl.type-10 .block_head  
+ span::after {
+    content: "";
+    position: absolute;
+    left: -38px;
+    border-left: 39px solid transparent;
+    border-top: 33px solid #000;
+    border-right: 0px solid #000;
+    top: 0px;
+}
+
+.advanced_blocks_pricing_tbl.type-10.p-table-pk-1 .block_head 
+ span::before {
+    border-left: 0px solid #ffb93e;
+    border-top: 33px solid #ffb93e;
+}
+
+.advanced_blocks_pricing_tbl.type-10.p-table-pk-1 .block_head 
+ span::after {
+    border-top: 34px solid #ffb93e;
+    border-right: 0px solid #ffb93e;
+}
+
+
+.advanced_blocks_pricing_tbl.type-10.featured {
+      background: #7c3ac9;
+    background: -moz-linear-gradient(top, #7c3ac9 0%, #7db9e8 100%);
+    background: -webkit-linear-gradient(top, #7c3ac9 0%,#7db9e8 100%);
+    background: linear-gradient(to bottom, #7c3ac9 0%,#7db9e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c3ac9', endColorstr='#7db9e8',GradientType=0 );
+    margin-top: -54px;
+    transform: translate(0,27px);
+    box-shadow: 0px 0px 40px rgba(0,0,0,.20);
+}
+.advanced_blocks_pricing_tbl.type-10.featured .block_head {
+    padding-top: 80px;
+    padding-bottom: 36px;
+}
+
+.advanced_blocks_pricing_tbl.type-10.featured .block_body ul {
+    padding-bottom: 70px;
+}
+.advanced_blocks_pricing_tbl.type-10.featured .block_footer h2 {
+    color: #53a5cf;
+}
+
+.advanced_blocks_pricing_tbl.type-10.featured .block_footer h2 sup {
+    color: #53a5cf;
+}
+
+.advanced_blocks_pricing_tbl.type-10.featured .block_head 
+ span {
+    background: #45c21a;
+}
+
+.advanced_blocks_pricing_tbl.type-10.featured .block_head 
+ span::before {
+    border-left: 0px solid #45c21a;
+    border-top: 33px solid #45c21a;
+}
+
+.advanced_blocks_pricing_tbl.type-10.featured .block_head 
+ span::after {
+    border-top: 34px solid #45c21a;
+    border-right: 0px solid #45c21a;
+}
+
+.advanced_blocks_pricing_tbl.type-10.featured .block_footer .advanced_pricing_block_btn {
+    background: #51a9cf !important;
+    color: #ffffff;
+}
+
+
+.advanced_blocks_pricing_tbl.type-10.premium {
+   background: #393bd6;
+background: -moz-linear-gradient(top,  #393bd6 0%, #ea38e4 100%);
+background: -webkit-linear-gradient(top,  #393bd6 0%,#ea38e4 100%);
+background: linear-gradient(to bottom,  #393bd6 0%,#ea38e4 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#393bd6', endColorstr='#ea38e4',GradientType=0 );
+
+}
+
+.advanced_blocks_pricing_tbl.type-10.premium .block_footer h2 {
+    color: #a739de;
+}
+
+.advanced_blocks_pricing_tbl.type-10.premium .block_footer h2 sup {
+    color: #a739de;
+}
+
+
+.advanced_blocks_pricing_tbl.type-10.premium .block_footer .advanced_pricing_block_btn:hover {
+    background: #51a9cf !important;
+    color: #ffffff;
+}
+/*------------------------------------
+    //Start Pricing Table  - 11
+------------------------------------*/
+.advanced_blocks_pricing_tbl.type-11 {
+    background: #8afba2;
+    background: -moz-linear-gradient(-45deg, #8afba2 0%, #33c9dd 100%);
+    background: -webkit-linear-gradient(-45deg, #8afba2 0%,#33c9dd 100%);
+    background: linear-gradient(135deg, #8afba2 0%,#33c9dd 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8afba2', endColorstr='#33c9dd',GradientType=1 );
+    border-radius: 35px;
+    padding: 0 5px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+}
+
+.advanced_blocks_pricing_tbl.type-11 .block_head h4 {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid rgba(0,0,0,.10);
+    font-size: 24px;
+}
+
+.advanced_blocks_pricing_tbl.type-11 .block_body {
+    border-radius: 35px;
+}
+
+.advanced_blocks_pricing_tbl.type-11 .block_body {
+    background: #ffffff;
+    box-shadow: 0px 0px 15px rgba(0,0,0,.10);
+    padding: 40px 25px 0 25px;
+}
+
+.advanced_blocks_pricing_tbl.type-11 .block_body p {
+    font-size: 14px;
+    color: #777777;
+    text-align: left;
+    word-break: break-all;
+    margin-bottom: 12px;
+}
+
+.advanced_blocks_pricing_tbl.type-11 .block_body ul li {
+    font-size: 14px;
+    color: #777777;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 25px;
+    margin-top: 25px;
+    word-break: break-all;
+    text-align: left;
+    padding-left: 25px;
+    position: relative;
+}
+
+.advanced_blocks_pricing_tbl.type-11 .block_body ul li::before {
+    content: "";
+    left: 0;
+    top: 0;
+    position: absolute;
+    right: 0;
+    font-size: 14px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+
+.advanced_blocks_pricing_tbl.type-11 .block_body ul li.available::before {
+    content: "\f058";
+    color: #64e5bc;
+}
+
+.advanced_blocks_pricing_tbl.type-11 .block_body ul li.not-available::before {
+    content: "\f057";
+    color: #f97383;
+}
+
+.advanced_blocks_pricing_tbl.type-11 .block_body .btn {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 25px;
+    border:  none;
+    position: relative;
+    z-index: 9;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.advanced_blocks_pricing_tbl.type-11 .block_body .btn i {
+    padding-right: 10px;
+}
+
+.advanced_blocks_pricing_tbl.type-11 .block_body .btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #6ff68c;
+    background: -moz-linear-gradient(-45deg,  #6ff68c 0%, #33c9dd 100%);
+    background: -webkit-linear-gradient(-45deg,  #6ff68c 0%,#33c9dd 100%);
+    background: linear-gradient(135deg,  #6ff68c 0%,#33c9dd 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ff68c', endColorstr='#33c9dd',GradientType=1 );
+    border-radius: 25px;
+    z-index: -1;
+}
+
+.advanced_blocks_pricing_tbl.type-11 .block_head {
+    padding-bottom: 25px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.advanced_blocks_pricing_tbl.type-11 .block_head::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 90px;
+    width: 90px;
+    opacity: .25;
+    border-radius: 50%;
+    left: 29px;
+    top: 6px;
+    background: #33c9dd;
+    background: -moz-linear-gradient(45deg,  #33c9dd 0%, #6ff68c 100%);
+    background: -webkit-linear-gradient(45deg,  #33c9dd 0%,#6ff68c 100%);
+    background: linear-gradient(45deg,  #33c9dd 0%,#6ff68c 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33c9dd', endColorstr='#6ff68c',GradientType=1 );
+}
+
+.advanced_blocks_pricing_tbl.type-11 .block_head::after {
+    content: "";
+    position: absolute;
+    height: 160px;
+    width: 160px;
+    background: #6ff68c;
+    background: -moz-linear-gradient(-45deg, #6ff68c 0%, #33c9dd 100%);
+    background: -webkit-linear-gradient(-45deg, #6ff68c 0%,#33c9dd 100%);
+    background: linear-gradient(135deg, #6ff68c 0%,#33c9dd 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ff68c', endColorstr='#33c9dd',GradientType=1 );
+    opacity: .25;
+    border-radius: 50%;
+    right: 14px;
+    top: 22px;
+}
+
+.advanced_blocks_pricing_tbl.type-11 .block_head h3 {
+    position: relative;
+    z-index: 5;
+}
+.advanced_blocks_pricing_tbl.type-11.standard{
+    background: #fe3259;
+background: -moz-linear-gradient(45deg,  #fe3259 0%, #ff9d8e 100%);
+background: -webkit-linear-gradient(45deg,  #fe3259 0%,#ff9d8e 100%);
+background: linear-gradient(45deg,  #fe3259 0%,#ff9d8e 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe3259', endColorstr='#ff9d8e',GradientType=1 );
+
+}
+.advanced_blocks_pricing_tbl.type-11.standard .block_body{
+    background: #ffffff;
+}
+.advanced_blocks_pricing_tbl.type-11.standard .block_head::before{
+    opacity: .30;
+    background: #ff9d8e;
+    background: -moz-linear-gradient(-45deg,  #ff9d8e 0%, #fe3259 100%);
+    background: -webkit-linear-gradient(-45deg,  #ff9d8e 0%,#fe3259 100%);
+    background: linear-gradient(135deg,  #ff9d8e 0%,#fe3259 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9d8e', endColorstr='#fe3259',GradientType=1 );
+
+}
+.advanced_blocks_pricing_tbl.type-11.standard .block_head::after{
+    opacity: .30;
+    background: #ff9d8e;
+    background: -moz-linear-gradient(-45deg,  #ff9d8e 0%, #fe3259 100%);
+    background: -webkit-linear-gradient(-45deg,  #ff9d8e 0%,#fe3259 100%);
+    background: linear-gradient(135deg,  #ff9d8e 0%,#fe3259 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9d8e', endColorstr='#fe3259',GradientType=1 );
+
+}
+.advanced_blocks_pricing_tbl.type-11.standard .block_body ul li.available::before {
+    color: #ff787c;
+}
+.advanced_blocks_pricing_tbl.type-11.standard .block_body .btn::before{
+    background: #ff9d8e;
+    background: -moz-linear-gradient(-45deg,  #ff9d8e 0%, #fe3259 100%);
+    background: -webkit-linear-gradient(-45deg,  #ff9d8e 0%,#fe3259 100%);
+    background: linear-gradient(135deg,  #ff9d8e 0%,#fe3259 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9d8e', endColorstr='#fe3259',GradientType=1 );
+}
+.advanced_blocks_pricing_tbl.type-11.premium {
+    background: #af2dff;
+    background: -moz-linear-gradient(-45deg,  #af2dff 0%, #4eb4fe 100%);
+    background: -webkit-linear-gradient(-45deg,  #af2dff 0%,#4eb4fe 100%);
+    background: linear-gradient(135deg,  #af2dff 0%,#4eb4fe 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#af2dff', endColorstr='#4eb4fe',GradientType=1 );
+}
+
+.advanced_blocks_pricing_tbl.type-11.premium .block_body .btn::before {
+    background: #af2dff;
+    background: -moz-linear-gradient(left,  #af2dff 0%, #4eb4fe 100%);
+    background: -webkit-linear-gradient(left,  #af2dff 0%,#4eb4fe 100%);
+    background: linear-gradient(to right,  #af2dff 0%,#4eb4fe 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#af2dff', endColorstr='#4eb4fe',GradientType=1 );
+}
+.advanced_blocks_pricing_tbl.type-11.premium .block_body ul li.available::before {
+    background: -webkit-linear-gradient(#af2dff, #4eb4fe);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+/*--------------------------------------
+--------------------------------------*/
+.advanced_blocks_pricing_tbl.type-2.pro_version .package_label {
+    position: absolute;
+}
+
+.advanced_blocks_pricing_tbl.type-2.pro_version {
+    position: relative;
+}
+
+.advanced_blocks_pricing_tbl.type-2.pro_version .package-label {
+    position: absolute;
+    height: 100%;
+    background: #158;
+    top: 0;
+    left: 0;
+    width: 67px;
+}
+
+.advanced_blocks_pricing_tbl.type-2.pro_version .package-label h4 {
+    transform: rotate(-90deg) translate(-70px, -11px);
+    color: #2f2f2f;
+    letter-spacing: 6px;
+    font-size: 28px;
+}
+
+.advanced_blocks_pricing_tbl.type-2.pro_version.free .package-label {
+    background: #ffdb4a;
+}
+
+.advanced_blocks_pricing_tbl.type-2.pro_version .block_head,.advanced_blocks_pricing_tbl.type-2.pro_version .block_body,.advanced_blocks_pricing_tbl.type-2.pro_version .block_footer {
+    margin-left: 103px;
+    text-align: left;
+}
+
+.advanced_blocks_pricing_tbl.type-2.pro_version .block_head {
+    border-bottom: 1px solid #ffdb4a;
+    margin-bottom: 20px;
+}
+
+.advanced_blocks_pricing_tbl.type-2.pro_version .block_body li span {
+    float: right;
+    padding-right: 30px;
+    font-size: 14px;
+}
+
+.advanced_blocks_pricing_tbl.type-2.pro_version .block_body li.not-available span {
+    color: #ff3860;
+}
+
+.advanced_blocks_pricing_tbl.type-2.pro_version .block_body li.available span {
+    color: #23d160;
+}
+
+.advanced_blocks_pricing_tbl.type-2.pro_version .block_body li {
+    padding-bottom: 34px;
+}
+
+.advanced_blocks_pricing_tbl.type-2.pro_version .advanced_pricing_block_btn {
+    border-color: #ffdb4a;
+    border-width: 2px;
+    text-transform: uppercase;
+    color: #2f2f2f;
+    font-size: 14px;
+}
+.advanced_blocks_pricing_tbl.type-2.pro_version.free {
+    box-shadow: 0px 0px 30px rgba(224,106,27,.10);
+}
+/**/
+.advanced_blocks_pricing_tbl.type-2.pro_version.business .package-label {
+    background: #00d1b1;
+}
+.advanced_blocks_pricing_tbl.type-2.pro_version.business .block_head {
+    border-bottom: 1px solid #00d1b1;
+    margin-bottom: 20px;
+}
+.advanced_blocks_pricing_tbl.type-2.pro_version.business .advanced_pricing_block_btn {
+    border-color: #00d1b1;
+    background: #00d1b1;
+    color: #fff;
+}
+.advanced_blocks_pricing_tbl.type-2.pro_version.business .package-label h4 {
+    transform: rotate(-90deg) translate(-159px, -11px);
+}
+.advanced_blocks_pricing_tbl.type-2.pro_version.business {
+    box-shadow: 0px 0px 30px rgba(5,95,82,.10);
+}
+.advanced_blocks_pricing_tbl.type-2.pro_version.premium {
+    box-shadow: 0px 0px 30px rgba(140,7,27,.10);
+}
+.advanced_blocks_pricing_tbl.type-2.pro_version .pricing_icon {
+    font-size: 40px;
+}
+/**/
+
+/**/
+.advanced_blocks_pricing_tbl.type-2.pro_version.premium .package-label {
+    background: #fe375f;
+}
+.advanced_blocks_pricing_tbl.type-2.pro_version.premium .block_head {
+    border-bottom: 1px solid #fe375f;
+    margin-bottom: 20px;
+}
+.advanced_blocks_pricing_tbl.type-2.pro_version.premium .advanced_pricing_block_btn {
+    border-color: #fe375f;
+    color: #2f2f2f;
+}
+.advanced_blocks_pricing_tbl.type-2.pro_version.premium .package-label h4 {
+    transform: rotate(-90deg) translate(-159px, -11px);
+}
+/**/
+
+/*  */
+
+.advanced_blocks_pricing_tbl.type-12 {
+    border: 2px solid #3b1d82;
+    border-radius: 20px;
+    position: relative;
+    padding: 0 0 40px 0;
+}
+
+.advanced_blocks_pricing_tbl.type-12 .block_head {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.advanced_blocks_pricing_tbl.type-12 .block_head h4 {
+    font-size: 35px;
+    line-height: 35px;
+    margin-bottom: 0;
+}
+
+.advanced_blocks_pricing_tbl.type-12 .block_body h3 {
+    font-size: 60px;
+    font-weight: 900;
+    position: relative;
+    margin-bottom: 0;
+    line-height: 44px;
+    z-index: 9;
+}
+
+.advanced_blocks_pricing_tbl.type-12 .block_footer p {
+    font-size: 14px;
+    color: #727272;
+    margin-bottom: 38px;
+}
+
+.advanced_blocks_pricing_tbl.type-12 .block_footer {
+    padding: 0 30px 0 30px;
+}
+
+.advanced_blocks_pricing_tbl.type-12 .block_footer .advanced_blocks_btn {
+    padding: 0 40px 0 40px;
+    color: #ffffff;
+}
+
+.advanced_blocks_pricing_tbl.type-12 .block_body h3 .big_icon2 {
+    font-size: 230px;
+    color: #f4f4f4;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    z-index: -1;
+}
+
+.advanced_blocks_pricing_tbl.type-12 .block_body {
+    padding: 105px 0 105px 0;
+}
+
+.advanced_blocks_pricing_tbl.type-12 .block_body h3 .big_icon1 {
+    font-size: 230px;
+    color: #f4f4f4;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    z-index: -1;
+}
+
+.advanced_blocks_pricing_tbl.type-12 .head_icon {
+    font-size: 60px;
+    left: 50%;
+    top: -42px;
+    transform: translateX(-50%);
+    z-index: 50;
+    color: #fff;
+}
+.advanced_blocks_pricing_tbl.type-12 .header_shape {
+    width: 100%;
+    top: -84px;
+}
+
+.advanced_blocks_pricing_tbl.type-12 .header_shape .st0 {
+    fill: #3b1d82;
+}
+.advanced_blocks_pricing_tbl.type-12.regular{
+    border-color:#e7015e;
+}
+.advanced_blocks_pricing_tbl.type-12.regular .block_body h3,
+.advanced_blocks_pricing_tbl.type-12.regular .block_head h4{
+    color: #e7015e !important;
+}
+.advanced_blocks_pricing_tbl.type-12.regular .header_shape .st0{
+     fill: #e7015e;
+}
+.advanced_blocks_pricing_tbl.type-12.regular .advanced_blocks_btn {
+    background: #e7015e !important;
+}
+/*  */
+
+/**/
+.advanced_blocks_pricing_tbl_area.type-13 {
+    background: rgb(249,51,104);
+    background: -moz-linear-gradient(left,  rgba(249,51,104,1) 0%, rgba(255,199,63,1) 100%);
+    background: -webkit-linear-gradient(left,  rgba(249,51,104,1) 0%,rgba(255,199,63,1) 100%);
+    background: linear-gradient(to right,  rgba(249,51,104,1) 0%,rgba(255,199,63,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f93368', endColorstr='#ffc73f',GradientType=1 );
+}
+
+.advanced_blocks_pricing_tbl.type-13 {
+    margin: 14px;
+    border-radius: 60px;
+    background: #ffffff;
+    box-shadow: 0px 0px 0px 14px rgba(0,0,0,.05);
+    position: relative;
+    overflow: hidden;
+    -webkit-perspective: 600px; /* Safari 4-8  */
+    perspective: 600px;
+}
+
+.advanced_blocks_pricing_tbl.type-13 .advanced_blocks_pricing_tbl_content.front {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 45px 0 40px 0;
+}
+
+.advanced_blocks_pricing_tbl.type-13 .advanced_blocks_pricing_tbl_content.back {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding: 45px 32px 40px 32px;
+    background: #ffffff;
+    transform-origin: left;
+    transform: rotateY(-113deg);
+    transition: all .30s linear;
+    opacity: 0;
+}
+
+.advanced_blocks_pricing_tbl.type-13 .pricing_table_title {
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.advanced_blocks_pricing_tbl.type-13 .pricing_value {
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 86px;
+    padding: 10px 0 27px 0;
+}
+
+.advanced_blocks_pricing_tbl.type-13 .pricing_duration {
+    font-size: 16px;
+    letter-spacing: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 3px 15px;
+    border-radius: 5px;
+}
+
+.advanced_blocks_pricing_tbl.type-13 .pricing_body {
+    text-align: center;
+    padding: 30px 20px 0px 20px;
+}
+
+.advanced_blocks_pricing_tbl.type-13 .advanced_blocks_pricing_tbl_content.back ul {
+    padding: 7px 0 20px 0;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.advanced_blocks_pricing_tbl.type-13 .advanced_blocks_pricing_tbl_content.back ul li {
+    font-size: 16px;
+    color: #777777;
+    line-height: 48px;
+    border-bottom: 1px solid #f4f4f4;
+    position: relative;
+}
+
+.advanced_blocks_pricing_tbl.type-13 .advanced_blocks_pricing_tbl_content.back ul li.available::before,
+.advanced_blocks_pricing_tbl.type-13 .advanced_blocks_pricing_tbl_content.back ul li.not-available::before {
+    content: "\f00c";right: 4px;top: 17px;font-family: 'Font Awesome 5 Free';font-weight: 900;display: block;line-height: 18px;color: #fe8a19;position: absolute;font-size: 16px;}
+
+.advanced_blocks_pricing_tbl.type-13 .advanced_blocks_pricing_tbl_content.back ul li.not-available::before {
+    position: absolute;
+    content: "\f00d";}
+
+.advanced_blocks_pricing_tbl.type-13 .advanced_blocks_pricing_tbl_content.back .advanced_blocks_btn {
+    background: #fe8a19;
+    color: #ffffff;
+    padding: 0 35px;
+    font-size: 16px;
+}
+
+.advanced_blocks_pricing_tbl.type-13 .advanced_blocks_pricing_tbl_content.back .pricing_table_title {
+    color: #fe8a19;
+}
+
+.advanced_blocks_pricing_tbl.type-13:hover .advanced_blocks_pricing_tbl_content.back {
+    transform: rotateY(0deg);
+    opacity: 1;
+}
+.advanced_blocks_pricing_tbl.type-13.premium .pricing_value {
+    color: #ff5f4b !important;
+}
+.advanced_blocks_pricing_tbl.type-13.premium .pricing_duration,
+.advanced_blocks_pricing_tbl.type-13.premium .advanced_blocks_pricing_tbl_content.back .advanced_blocks_btn{
+   background: #ff5f4b !important; 
+}
+.advanced_blocks_pricing_tbl.type-13.premium .advanced_blocks_pricing_tbl_content.back .pricing_table_title,
+.advanced_blocks_pricing_tbl.type-13.premium .advanced_blocks_pricing_tbl_content.back ul li.available::before, 
+.advanced_blocks_pricing_tbl.type-13.premium .advanced_blocks_pricing_tbl_content.back ul li.not-available::before{
+     color: #ff5f4b !important;
+}
+.advanced_blocks_pricing_tbl_area.type-13 > img {
+    width: 100%;
+    top: 0;
+    opacity: .10;
+    height: 100%;
+}
+/**/
+/*  */
+
+.advanced_blocks_pricing_tbl.type-14 .block_head h4 {
+    font-size: 30px;
+}
+
+.advanced_blocks_pricing_tbl.type-14 .block_head p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #464545;
+}
+
+.advanced_blocks_pricing_tbl.type-14 .block_head {
+    background: #e6f9ff;
+    padding: 20px 38px 30px 40px;
+}
+.advanced_blocks_pricing_tbl.type-14.top_sale,
+.advanced_blocks_pricing_tbl.type-14:hover {
+    box-shadow: 0 0 40px rgba(91,31,192,.20);
+}
+
+.advanced_blocks_pricing_tbl.type-14 .block_body {
+    padding: 20px 38px 30px 40px;
+    background: rgb(195,75,250);
+    background: -moz-linear-gradient(-45deg,  rgba(195,75,250,1) 0%, rgba(97,91,217,1) 100%);
+    background: -webkit-linear-gradient(-45deg,  rgba(195,75,250,1) 0%,rgba(97,91,217,1) 100%);
+    background: linear-gradient(135deg,  rgba(195,75,250,1) 0%,rgba(97,91,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c34bfa', endColorstr='#615bd9',GradientType=1 );
+}
+
+.advanced_blocks_pricing_tbl.type-14 .block_body ul li:not(:last-child) {
+    line-height: 40px;
+    margin-bottom: 16px;
+}
+
+.advanced_blocks_pricing_tbl.type-14 .block_body ul li {
+    color: #ffffff;
+    position: relative;
+}
+
+.advanced_blocks_pricing_tbl.type-14 .block_footer {
+    padding: 15px 38px 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #e6f9ff;
+}
+
+.advanced_blocks_pricing_tbl.type-14 .block_footer h6 {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.advanced_blocks_pricing_tbl.type-14 .block_footer .advanced_blocks_btn {
+    position: relative;
+    padding: 0 30px;
+    line-height: 41px;
+    border: none;
+    font-size: 14px;
+    color: #ffffff;
+    z-index: 9;
+}
+
+.advanced_blocks_pricing_tbl.type-14 .block_footer .advanced_blocks_btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background: rgb(195,75,250);
+    background: -moz-linear-gradient(-45deg,  rgba(195,75,250,1) 0%, rgba(97,91,217,1) 100%);
+    background: -webkit-linear-gradient(-45deg,  rgba(195,75,250,1) 0%,rgba(97,91,217,1) 100%);
+    background: linear-gradient(135deg,  rgba(195,75,250,1) 0%,rgba(97,91,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c34bfa', endColorstr='#615bd9',GradientType=1 );z-index: -1;transition: all .30s linear;}
+
+.advanced_blocks_pricing_tbl.type-14 .block_footer .advanced_blocks_btn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;background: rgb(97,91,217);
+    background: -moz-linear-gradient(-45deg,  rgba(97,91,217,1) 0%, rgba(195,75,250,1) 100%);
+    background: -webkit-linear-gradient(-45deg,  rgba(97,91,217,1) 0%,rgba(195,75,250,1) 100%);
+    background: linear-gradient(135deg,  rgba(97,91,217,1) 0%,rgba(195,75,250,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#615bd9', endColorstr='#c34bfa',GradientType=1 );visibility: hidden;opacity: 0;transition: all .30s linear;z-index: -1;}
+
+.advanced_blocks_pricing_tbl.type-14 .block_footer .advanced_blocks_btn:hover::after {
+    visibility: visible;
+    opacity: 1;
+}
+
+.advanced_blocks_pricing_tbl.type-14 .block_body ul li::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 10px;
+    right: 4px;
+    top: 17px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;display: block;
+    line-height: 18px;color: #fe8a19;
+    position: absolute;font-size: 16px;
+}
+
+.advanced_blocks_pricing_tbl.type-14 .block_body ul li.available::before {content: "\f00c";color: #f1ee19;}
+
+.advanced_blocks_pricing_tbl.type-14 .block_body ul li.not-available::before {
+    content: "\f00d";
+}
+
+.advanced_blocks_pricing_tbl.type-14.top_sale .block_head,
+.advanced_blocks_pricing_tbl.type-14.top_sale .block_footer,
+.advanced_blocks_pricing_tbl.type-14:hover .block_head,
+.advanced_blocks_pricing_tbl.type-14:hover .block_footer {
+    background: #ffffff;
+}
+/*  */
+
+/*  */
+.single_advanced_blcoks_pricing_tbl.type-15.package_option .pricing_tbl_body ul li {
+    text-align: left;
+}
+
+
+.single_advanced_blcoks_pricing_tbl.type-15 .pricing_tbl_title {
+    color: #6a6a6a;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    line-height: 76px;
+}
+
+.advanced_blocks_pricing_tbl_container.type-15 {
+    border: 1px solid #f4f4f4;
+}
+
+.single_advanced_blcoks_pricing_tbl.type-15.package_option .pricing_tbl_title {
+    padding: 20px 81px 20px 30px;
+    height: 279px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing_tbl_img img {
+    height: 203px;
+}
+
+.single_advanced_blcoks_pricing_tbl.type-15.package_option .pricing_tbl_title h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: left;
+}
+
+.single_advanced_blcoks_pricing_tbl.type-15 .pricing_tbl_body {
+    padding: 0 6px;
+}
+
+.pricing_tbl_body ul li {
+    font-size: 16px;
+    color: #727272;
+    border-bottom: 1px solid #f3f3f3;
+    padding: 13px 35px 13px 35px;
+}
+
+.pricing_tbl_body ul {
+    border-top: 1px solid #f3f3f3;
+}
+
+.pricing_tag {
+    font-size: 40px;
+    color: #6a6a6a;
+    line-height: 30px;
+    display: inline-block;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.pricing_tag span {
+    font-size: 14px;
+    color: #8f8f8f;
+}
+
+.pricing_tag i {
+    position: absolute;
+    left: -29px;
+    top: 12px;
+    opacity: .10;
+}
+
+.pricing_tbl_footer {
+    border-top: 1px solid #f3f3f3;
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+
+.pricing_tbl_footer 
+ .advanced_blocks_btn {
+    border: 2px solid #ececec;
+    color: #a1a1a1;
+}
+
+.single_advanced_blcoks_pricing_tbl.type-15.package_option .pricing_tbl_body {
+    padding: 0;
+}
+
+.single_advanced_blcoks_pricing_tbl.type-15.package_option {
+    box-shadow: -8px 0 10px rgba(0,0,0,.10);
+}
+
+.advanced_blocks_pricing_tbl_container.type-15 > div:last-child {
+    box-shadow: 10px 0px 10px rgba(0,0,0,.10);
+}
+.single_advanced_blcoks_pricing_tbl.type-15.standard {
+    position: relative;
+}
+
+.single_advanced_blcoks_pricing_tbl.type-15.standard::before {
+    content: "";
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(-45deg,  rgba(255,255,255,1) 0%, rgba(51,201,221,1) 100%);
+    background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(51,201,221,1) 100%);
+    background: linear-gradient(135deg,  rgba(255,255,255,1) 0%,rgba(51,201,221,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#33c9dd',GradientType=1 );
+    width: 100%;height: 100%;position: absolute;z-index: -1;opacity: .20;
+}
+.single_advanced_blcoks_pricing_tbl.type-15.standard {
+    position: relative;
+    border-color: #dadcdc;
+}
+.single_advanced_blcoks_pricing_tbl.type-15.standard .pricing_tag {
+    color: #0dacff;
+}
+
+.single_advanced_blcoks_pricing_tbl.type-15.standard .advanced_blocks_btn {
+    background: #0dacff;
+    color: #ffffff;
+    border-color: #0dacff;
+}
+.single_advanced_blcoks_pricing_tbl.type-15.standard  .pricing_tbl_body ul li i{
+    color: #0dacff;
+}
+
+/* */
+
+.advanced_blocks_pricing_tbl_area.type-16 .overlay {
+    background: rgb(27,8,70);
+    background: -moz-linear-gradient(-45deg,  rgba(27,8,70,1) 0%, rgba(74,2,31,1) 100%);
+    background: -webkit-linear-gradient(-45deg,  rgba(27,8,70,1) 0%,rgba(74,2,31,1) 100%);
+    background: linear-gradient(135deg,  rgba(27,8,70,1) 0%,rgba(74,2,31,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b0846', endColorstr='#4a021f',GradientType=1 );
+    opacity: .90;
+}
+.single_advanced_blcoks_pricing_tbl.type-16 {
+    border: 3px solid #3b1d82;
+    border-radius: 30px;
+    background: rgba(59,59,130,.28);
+}
+
+.single_advanced_blcoks_pricing_tbl.type-16 .block_head {
+    text-align: center;
+    background: #3b1d82;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: relative;
+    padding-top: 30px;
+}
+
+.single_advanced_blcoks_pricing_tbl.type-16 .block_head .pricing_title {
+    font-size: 22px;
+    color: #c3a9ff;
+    display: inline-block;
+    border-bottom: 2px solid #30176b;
+    padding: 0px 10px 10px 10px;
+}
+
+.single_advanced_blcoks_pricing_tbl.type-16 .block_head .pricing_tag {
+    display: block;
+    font-size: 50px;
+    font-weight: 900;
+    color: #ffffff;
+    margin: 23px 0 0px 0;
+}
+
+.single_advanced_blcoks_pricing_tbl.type-16 .block_head .shape1 {
+    position: absolute;
+    width: calc(100% - 0%);
+    left: 50%;
+    transform: translateX(-50%);
+    top: calc(100% - 28px);
+}
+
+.single_advanced_blcoks_pricing_tbl.type-16 .block_head .shape1 .st0 {
+    fill: #3b1d82;
+}
+
+.single_advanced_blcoks_pricing_tbl.type-16 .block_head .shape1 svg {
+    filter: drop-shadow(0px 5px 3px rgba(0, 0, 0, 0.20));
+}
+
+.single_advanced_blcoks_pricing_tbl.type-16 .promotion_circle {
+    height: 156px;
+    width: 156px;
+    border: 14px solid #3b1d82;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 32px;
+    color: #d7c6ff;
+}
+
+.single_advanced_blcoks_pricing_tbl.type-16 .block_body {
+    margin: 70px 0 30px 0;
+}
+
+.single_advanced_blcoks_pricing_tbl.type-16 .block_footer .advanced_blocks_btn {
+    line-height: 46px;
+    font-size: 14px;
+    padding: 0 38px;
+    background: #e7015e;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.single_advanced_blcoks_pricing_tbl.type-16 .block_footer {
+    padding-bottom: 30px;
+}
+
+.single_advanced_blcoks_pricing_tbl.type-16 .block_body p {
+    display: inline-block;
+    padding: 0 20px;
+    border-bottom: 2px dashed #963059;
+    padding-bottom: 5px;
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .advanced_blocks_pricing_tbl.type-12 .header_shape {
+        width: calc(100% - 20%);
+        top: -56px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .advanced_blocks_pricing_tbl.type-12 .block_head {
+        padding-top: 100px;
+    }
+    .advanced_blocks_pricing_tbl.type-12 .block_head h4 {
+        font-size: 31px;
+    }
+    .advanced_blocks_pricing_tbl.type-12 .head_icon {
+        font-size: 45px;
+    }
+    .single_advanced_blcoks_pricing_tbl.type-15.package_option .pricing_tbl_title {
+        padding: 20px 30px 20px 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .advanced_blocks_pricing_tbl.type-6 .block_body {
+        padding: 30px 15px 30px 15px;
+    }
+}

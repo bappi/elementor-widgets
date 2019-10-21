@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	
+	.dot{
+		height: 10px;
+		width: 10px;
+		background: #777;
+		display: inline-block;
+		
+	}
+	.dot.active{
+		background: #555;
+	}
+	.dot.current{
+		background: #158;
+	}
+
+</style>
+</head>
+<body>
+
+	<div style="text-align:center">
+  <span class="dot" ></span> 
+  <span class="dot" ></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<br>
+<br>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 </div>
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 </div>
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 </div>
+  <div class="text">Caption Three</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 </div>
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev">&#10094;</a>
+<a class="next">&#10095;</a>
+
+</div>
+<br>
+ <br>
+
+ <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 </div>
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 </div>
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 </div>
+  <div class="text">Caption Three</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 </div>
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev">&#10094;</a>
+<a class="next">&#10095;</a>
+
+</div>
+
+
+
+
+<script src="assets/js/jquery-2.2.4.min.js"></script>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+  
+}
+$('.prev').on('click',function(){
+  plusSlides(-1)
+});
+$('.next').on('click',function(){
+  plusSlides(1)
+});
+$('.dot').on('click',function(){
+    let itemIndex = $(this).index() + 1
+    currentSlide(itemIndex)
+});
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+  		slides[i].className = slides[i].className.replace(" active", "");
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  console.log(dots[slideIndex-1])
+  slides[slideIndex-1].className += ' active '
+
+ let itemIndex = $('.dot.active').index() + 1
+  let dotLength = $('.dot').length;
+    let newItem = itemIndex -1
+     $('.dot').removeClass('current')
+    for (var i = 0;i<=newItem;i++) {
+      $('.dot')[i].className += " current ";
+    }
+}
+</script>
+
+</body>
+</html> 

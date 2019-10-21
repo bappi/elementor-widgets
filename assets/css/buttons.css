@@ -1,0 +1,19 @@
+.btn_primary {
+    background: #5d3eff !important;
+    border-color: #5d3eff !important;
+    color: #ffffff !important;
+}
+
+.btn_primary.advanced_blocks_btn_bordered {
+    background: transparent !important;
+    color: #5D3EFF !important;
+}
+
+.btn_primary.borderless {
+    background: #ffffff !important;
+    border-color: #ffffff !important;
+    color: #5D3EFF !important;
+}
+.btn_primary.borderless.s_40Dp {
+    box-shadow: 0 0 40px rgba(91,31,192,.10);
+}

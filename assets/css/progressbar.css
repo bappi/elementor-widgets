@@ -1,0 +1,239 @@
+.advanced_block_progressbar_block {
+    position: relative;
+}
+
+.advanced_block_progressbar_block.dark .progressbar-label,.advanced_block_progressbar_block.dark .parcent {
+    font-size: 16px;
+    color: #666666;
+    line-height: 35px;
+    display: inline-block;
+}
+.progress {
+    height: 10px;
+    background: #000;
+    width: 0;
+}
+.advanced_block_progressbar_block.dark {
+    margin-bottom: 22px;
+}
+
+.advanced_block_progressbar_block.dark::before {
+    top: initial;
+    bottom: 3px;
+}
+
+.advanced_block_progressbar_block::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #eeeeee;
+    top: 33px;
+    z-index: -1;
+}
+
+.advanced_block_progressbar_block.dark .parcent {
+    position: absolute;
+    transform: translateX(-100%);
+}
+
+.advanced_block_progressbar_block.capsul .progressbar-label,.advanced_block_progressbar_block.capsul .parcent {
+    position: relative;
+    font-weight: 600;
+    color: #bbc107;
+    z-index: 99;
+    left: initial;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.advanced_block_progressbar_block.capsul {
+    margin-bottom: 32px;
+}
+
+.advanced_block_progressbar_block.capsul .progress {
+    height: 10px;
+    background: #004aa9;
+    border-radius: 10px;
+    z-index: 50;
+    position: relative;
+}
+
+.advanced_block_progressbar_block.capsul::before {
+    height: 20px;
+    background: #dee263;
+    content: "";
+    z-index: 0;
+    border-radius: 10px;
+    top: initial;
+    bottom: -5px;
+    left: -7px;
+    width: calc(100% + 13px);
+    z-index: 9;
+}
+
+.advanced_block_progressbar_block.capsul::after {content: "";position: absolute;left: -13px;top: -3px;width: 201px;background: #ffffff;height: 60px;border-radius: 14px;}
+
+.advanced_block_progressbar_block.capsul .parcent {
+    left: auto !important;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+/*----------------------------------
+----------------------------------*/
+
+.advanced_block_progressbar_block.progress-transparent {
+  margin-bottom: 20px;
+}
+.advanced_block_progressbar_block.progress-transparent .progressbar-label {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 6px;
+  display: inline-block;
+}
+.advanced_block_progressbar_block.progress-transparent .progress {
+  opacity: .8;
+  height: 20px;
+}
+.advanced_block_progressbar_block::before {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background: rgba(255,255,255,.10);
+  z-index: 0;
+  bottom: 0;
+  top: initial;
+}
+.advanced_block_progressbar_block.progress-transparent.bar-1 .progress {
+  background: #f93ae5;
+}
+.advanced_block_progressbar_block.progress-transparent.bar-2 .progress {
+  background: #a769f3;
+}
+.advanced_block_progressbar_block.progress-transparent.bar-3 .progress {
+  background: #ffcf4a;
+}
+.advanced_block_progressbar_block.progress-transparent.bar-4 .progress {
+  background: #2fc970;
+}
+.advanced_block_progressbar_block.progress-transparent .parcent {
+  position: absolute;
+  margin-left: -38px;
+  color: #ffffff;
+  font-size: 14px;
+  bottom: 0;
+  z-index: 9;
+}
+.advanced_block_progressbar_block.progress-grad {
+  margin-bottom: 25px;
+}
+.advanced_block_progressbar_block.progress-grad .parcent {
+  color: #ffffff;
+  z-index: 100;
+  position: absolute;
+  bottom: -1px;
+  top: initial;
+  transform: translateX(-100%);
+  margin-left: -10px;
+}
+.advanced_block_progressbar_block.progress-grad.bar-3 .progressbar-label {
+  color: #ffb84f;
+}
+.advanced_block_progressbar_block.progress-grad.bar-2 .progressbar-label {
+  color: #0ec0c1;
+}
+.advanced_block_progressbar_block.progress-grad.bar-1 {
+}
+.advanced_block_progressbar_block.progress-grad::before {
+  background: #e8f0f4;
+  border-radius: 10px;
+  z-index: 0;
+  position: absolute;
+  height: 20px;
+  top: initial;
+  bottom: 0;
+}
+.advanced_block_progressbar_block.progress-grad .progress {
+  border-radius: 10px;
+  z-index: 50;
+  position: relative;
+  height: 20px;
+  box-shadow: 4px 0px 4px rgba(0,0,0,.25);
+}
+.advanced_block_progressbar_block.progress-grad.bar-1 .progressbar-label {
+  color: #b23ecd;
+}
+.advanced_block_progressbar_block.progress-grad.bar-4 .progressbar-label {
+  color: #31cda6;
+}
+.advanced_block_progressbar_block.progress-grad .progressbar-label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.advanced_block_progressbar_block.progress-grad.bar-1 .progress {
+  background: #ec73a4;
+  background: -moz-linear-gradient(top, #ec73a4 0%, #c90fff 100%);
+  background: -webkit-linear-gradient(top, #ec73a4 0%,#c90fff 100%);
+  background: linear-gradient(to bottom, #ec73a4 0%,#c90fff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec73a4', endColorstr='#c90fff',GradientType=0 );
+}
+.advanced_block_progressbar_block.progress-grad.bar-2 .progress {
+  \.advanced_block_progressbar_block\.type-3\.grad\.bar-2\ \.progress\ \{\ background: #0affdb;
+  background: -moz-linear-gradient(top, #0affdb 0%, #892cfc 100%);
+  background: -webkit-linear-gradient(top, #0affdb 0%,#892cfc 100%);
+  background: linear-gradient(to bottom, #0affdb 0%,#892cfc 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0affdb', endColorstr='#892cfc',GradientType=0 );
+}
+.advanced_block_progressbar_block.progress-grad.bar-3 .progress {
+  \.advanced_block_progressbar_block\.type-3\.grad\.bar-3\ \.progress\ \{\ background: #ffcf4a;
+  background: -moz-linear-gradient(top, #ffcf4a 0%, #ff3a6d 86%);
+  background: -webkit-linear-gradient(top, #ffcf4a 0%,#ff3a6d 86%);
+  background: linear-gradient(to bottom, #ffcf4a 0%,#ff3a6d 86%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcf4a', endColorstr='#ff3a6d',GradientType=0 );
+}
+.advanced_block_progressbar_block.progress-grad.bar-4 .progress {
+  background: -moz-linear-gradient(top, #33d3ff 0%, #2fc970 98%);
+  background: -webkit-linear-gradient(top, #33d3ff 0%,#2fc970 98%);
+  background: linear-gradient(to bottom, #33d3ff 0%,#2fc970 98%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33d3ff', endColorstr='#2fc970',GradientType=0 );
+}
+
+.advanced_block_progressbar_block.progress-border {
+    margin-bottom: 20px;
+}
+.advanced_block_progressbar_block.progress-border .progressbar-label {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 6px;
+    display: inline-block;
+    color: #ffffff;
+}
+.advanced_block_progressbar_block.progress-border .progress {
+    height: 15px;
+    border-radius: 15px;
+    background: #dfffff;
+    border: 4px dotted #ffdb4a;
+}
+.advanced_block_progressbar_block.progress-border::before {
+    background: rgba(255,255,255,.10);
+    z-index: 0;
+    height: 15px;
+    border-radius: 10px;
+}
+.advanced_block_progressbar_block.progress-border .parcent {
+    font-weight: 600;
+    position: absolute;
+    margin-left: -38px;
+    color: #ffffff;
+    font-size: 14px;
+    top: initial;
+    bottom: 20px;
+}
+.advanced_block_progressbar_block_area.type-3 .overlay {
+    background: rgba(0,0,0,.30);
+}

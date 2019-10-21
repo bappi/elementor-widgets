@@ -1,0 +1,200 @@
+.advanced_blocks_quotes_card.dark .quote_author {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.advanced_blocks_quotes_card.dark .quotes_paragraph {
+    font-size: 16px;
+    color: #d6d6d6;
+    font-style: italic;
+    line-height: 30px;
+}
+
+.advanced_blocks_quotes_card.dark .quotes-icon {
+    color: #ffffff;
+    font-size: 16px;
+    position: absolute;
+    left: -28px;
+    top: 12px;
+}
+
+.advanced_blocks_quotes_card.dark h5 {
+    font-size: 26px;
+    color: #ffffff;
+}
+
+.advanced_blocks_quotes_card {
+    padding: 46px 53px 50px 75px;
+}
+
+.advanced_blocks_quotes_card.bordered-left .quote_author {
+    display: block;
+    padding-top: 20px;
+    color: #747474;
+    margin-top: 0;
+}
+
+.advanced_blocks_quotes_card.bordered-left .quotes_paragraph {
+    color: #747474;
+    line-height: 30px;
+}
+
+.advanced_blocks_quotes_card.bordered-left .quote_paragraph {
+    color: #747474;
+}
+
+.advanced_blocks_quotes_card.bordered-left {
+    border-left: 10px solid #e5e5e5;
+    padding: 38px 53px 48px 74px;
+}
+
+.advanced_blocks_quotes_card.bordered-left .quotes-icon {
+    position: absolute;
+}
+
+.advanced_blocks_quotes_card.bordered-left .quotes-icon {
+    position: absolute;
+    left: -25px;
+    top: 13px;
+    color: #e5e5e5;
+    font-size: 16px;
+}
+
+.advanced_blocks_quotes_card.bordered-left h5 {
+    color: #2f2f2f;
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+.advanced_blocks_quotes_card.quote-plain h5 {
+    color: #393939;
+    font-size: 35px;
+    position: relative;
+    display: inline-block;
+    z-index: 50;
+    margin-bottom: 0px;
+}
+.advanced_blocks_quotes_card.quote-plain .quote_author::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #ffe829;
+    z-index: -1;
+    top: 8px;
+}
+.advanced_blocks_quotes_card.float_icon .quote_author {
+    font-size: 17px;
+    color: #393939;
+    position: relative;
+    display: inline-block;
+    z-index: 50;
+    margin-top: 17px;
+}
+.advanced_blocks_quotes_card.quote-plain .quote_author {
+    font-size: 17px;
+    color: #393939;
+    position: relative;
+    display: inline-block;
+    z-index: 50;
+    margin-top: 17px;
+}
+.advanced_blocks_quotes_card.float_icon .quote_author {
+    font-size: 16px;
+    color: #5a5a5a;
+    padding-top: 0;
+}
+
+.advanced_blocks_quotes_card.float_icon .quotes_paragraph {
+    color: #747474;
+    line-height: 30px;
+    display: block;
+}
+
+.advanced_blocks_quotes_card.float_icon .quotes-icon {
+    height: 55px;
+    width: 55px;
+    position: absolute;
+    border-radius: 50%;
+    font-size: 22px;
+    color: #bcc3c6;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    top: -26px;
+    left: 20px;
+    background: #ffffff;
+}
+
+.advanced_blocks_quotes_card.float_icon::before {
+    width: 68px;
+    height: 68px;
+    background: #f6f9fa;
+    content: "";
+    position: absolute;
+    top: -33px;
+    left: 13px;
+    border-radius: 50%;
+}
+
+.advanced_blocks_quotes_card.quote-plain .quotes_paragraph {
+    display: block;
+}
+
+.advanced_blocks_quotes_card.quote-plain .quotes-icon {
+    font-size: 100px;
+    position: absolute;
+    color: #ffe35e;
+}
+
+
+.advanced_blocks_quotes_card.quote-plain .quotes_paragraph {
+    color: #63571e;
+    line-height: 30px;
+    position: relative;
+}
+
+.advanced_blocks_quotes_card.dark .quotes_icon {
+    color: #e5e5e5;
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+}
+
+.advanced_blocks_quotes_card blockquote {
+    position: relative;
+}
+
+.advanced_blocks_quotes_card.float_icon blockquote {
+    position: static;
+}
+
+.advanced_blocks_quotes_card.float_icon {
+    border-radius: 20px;
+}
+
+/*-----------------------------
+    //Added Icon Multiple Position
+-----------------------------*/
+
+.advanced_blocks_quotes_card.float_icon.icon-center::before {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.advanced_blocks_quotes_card.float_icon.icon-center .quotes-icon {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.advanced_blocks_quotes_card.float_icon.icon-right::before {
+    left: initial;
+    right: 14px;
+}
+
+.advanced_blocks_quotes_card.float_icon.icon-right .quotes-icon {
+    left: initial;
+    right: 20px;
+}
