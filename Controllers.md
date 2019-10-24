@@ -72,6 +72,43 @@ Searchbox
 	. Searchbox Categories
 	. categores position
 
+Team Member
+=================================
+
+	. Member Image
+	. Member Name
+	. Member Designation
+	. Member Bio Info
+	. Display Social Media
+	. Member Social Media
+	. Name HTML Tag
+	. Overlay Content - Social Media / Social Media + Content
+	. Border Radius
+
+Countdown
+==============================
+	. Countdown Due Date
+	. Countdown Custom Lavel
+	. show Day
+	. Show Hours
+	. Show Minutes
+	. Show Second
+	. Background
+	. Border Radius
+	. Expire Action (When Countdown Compelted)
+	. Expire Message
+
+Testimonial
+=========================
+	. Testimonial Reviewer Image
+	. Image Position
+	. Testimonial Review Star / Review In Number
+	. Review Star scale
+	. Reviewr Position
+	. Review Text
+	. Alignment
+	. Border Radius
+
 
 
 
