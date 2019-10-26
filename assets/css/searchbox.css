@@ -90,7 +90,17 @@
     box-shadow: 0px 0px 10px rgba(0,0,0,.05);
 }
 
-.advanced_blocks_searchbox.searchbox-wt-content .searcbox_area::after {content: "";position: absolute;left: calc(100% + -66px);bottom: calc(100% - 83px);border: 15px solid #ffbb91;height: 115px;width: 115px;border-radius: 50%;opacity: 1;z-index: 0;box-shadow: 0 0 10px rgba(0,0,0,.02);}
+.advanced_blocks_searchbox.searchbox-wt-content .searcbox_area::after {
+    content: "";
+    position: absolute;
+    left: calc(100% + -66px);
+    bottom: calc(100% - 83px);
+    border: 15px solid #ffbb91;
+    height: 115px;
+    width: 115px;
+    border-radius: 50%;
+    opacity: 1;
+    z-index: 0;box-shadow: 0 0 10px rgba(0,0,0,.02);}
 /**/
 
 /**/
