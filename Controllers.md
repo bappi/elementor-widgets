@@ -109,6 +109,20 @@ Testimonial
 	. Alignment
 	. Border Radius
 
+Pricing Table
+=========================
+	
+	. Package Name
+	. Package Subtitle
+	. Currency Name / Currency Icon
+	. Pricing Amount
+	. Pricing Duration
+	. Package check / Package Cancel
+	. Package Option
+	. Package Button
+	. Package Badge
+
+
 
 
 
