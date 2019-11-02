@@ -1,0 +1,85 @@
+
+.advanced_blocks_review.default .review_blocks_head {
+    display: flex;
+}
+
+.advanced_blocks_review.default {
+    padding: 40px 40px 40px 40px;
+    background: #ffffff;
+    background: -moz-linear-gradient(45deg,  #ffffff 0%, #fffaeb 100%);
+    background: -webkit-linear-gradient(45deg,  #ffffff 0%,#fffaeb 100%);
+    background: linear-gradient(45deg,  #ffffff 0%,#fffaeb 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fffaeb',GradientType=1 );
+    box-shadow: 0px 5px 50px rgba(153,86,110,.15);
+    border-radius: 20px;
+}
+
+.advanced_blocks_review.default  .reviewer_image img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+.advanced_blocks_review.default .reviwer_name {
+    color: #2e2e4c;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    line-height: 26px;
+}
+
+.advanced_blocks_review.default .reviwer_desination {
+    font-size: 16px;
+    color: #acacbb;
+    margin-bottom: 14px;
+}
+
+.advanced_blocks_review.default .review_number {
+    background: #9633ff;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 2px 10px;
+    border-radius: 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.advanced_blocks_review.default .review_number i {
+    display: inline-block;
+    padding-left: 3px;
+    font-size: 13px;
+}
+
+.advanced_blocks_review.default .review_blocks_content p {
+    font-size: 16px;
+    color: #71717e;
+    font-style: italic;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+.advanced_blocks_review.default .review_blocks_content {
+    padding-top: 35px;
+}
+
+.advanced_blocks_review.default .reviewer_info {
+    padding-left: 20px;
+}
+
+.advanced_blocks_review.default .reviewer_image {
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+}
+
+.reviewer_image::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #eee;
+    border-radius: 50%;
+}

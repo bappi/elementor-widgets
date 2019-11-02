@@ -87,6 +87,7 @@ Team Member
 
 Countdown
 ==============================
+
 	. Countdown Due Date
 	. Countdown Custom Lavel
 	. show Day
@@ -100,6 +101,7 @@ Countdown
 
 Testimonial
 =========================
+
 	. Testimonial Reviewer Image
 	. Image Position
 	. Testimonial Review Star / Review In Number
@@ -112,6 +114,7 @@ Testimonial
 Pricing Table
 =========================
 	
+	. Package Icon / Image
 	. Package Name
 	. Package Subtitle
 	. Currency Name / Currency Icon
@@ -121,6 +124,7 @@ Pricing Table
 	. Package Option
 	. Package Button
 	. Package Badge
+
 
 
 
