@@ -65,14 +65,24 @@
 
 .advanced_blocks_review.default .reviewer_info {
     padding-left: 20px;
+    position: relative;
+    z-index: 9;
 }
-
 .advanced_blocks_review.default .reviewer_image {
     display: inline-block;
     border-radius: 50%;
     position: relative;
 }
 
+@keyframes bouncing{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(2);
+    }
+}
+.reviewer_image::after,
 .reviewer_image::before {
     content: "";
     position: absolute;
@@ -82,4 +92,248 @@
     width: 100%;
     border: 1px solid #eee;
     border-radius: 50%;
+    
+}
+.reviewer_image::before{
+    animation: bouncing 1s linear infinite;
+}
+.reviewer_image::after{
+    animation-delay: .30s !important;
+    animation: bouncing 1s linear infinite;
+}
+
+/*------------------------------------
+-----------------------------------*/
+.advanced_blocks_review.boxed_star_review:hover  .reviewer_image::after,
+.advanced_blocks_review.boxed_star_review:hover  .reviewer_image::before{
+    border-color: rgba(244,212,201,.50);
+}
+.advanced_blocks_review.boxed_star_review .review_number {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 2px 10px 3px 10px;
+    background: #ff6e82;
+    border-radius: 10px;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.advanced_blocks_review.boxed_star_review .reviewer_info {
+    margin-top: 33px;
+    position: relative;
+}
+
+.advanced_blocks_review.boxed_star_review .review_blocks_head {
+    text-align: center;
+}
+
+.advanced_blocks_review.boxed_star_review .reviwer_desination,
+.advanced_blocks_review.boxed_star_review .reviwer_name {
+    margin-bottom: 0;
+}
+
+.advanced_blocks_review.boxed_star_review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background: #ffffff;
+    padding: 40px 40px 34px 40px;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 5px 30px rgba(0,9,100,.05);
+}
+.advanced_blocks_review.boxed_star_review .reviewer_image {
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+}
+
+.advanced_blocks_review.boxed_star_review .reviewer_image img {
+    border-radius: 50%;
+}
+
+.advanced_blocks_review.boxed_star_review .review_blocks_content p {
+    margin-bottom: 0;
+    color: #71717e;
+    line-height: 30px;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+
+.advanced_blocks_review.boxed_star_review .reviwer_name {
+    font-size: 20px;
+    color: #2e2e4c;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.advanced_blocks_review.boxed_star_review .reviwer_desination {
+    font-size: 16px;
+    color: #acacbb;
+}
+
+.advanced_blocks_review.boxed_star_review .review_blocks_content {
+    padding-top: 31px;
+    position: relative;
+}
+
+.advanced_blocks_review.boxed_star_review:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fed1d7;
+    background: -moz-linear-gradient(45deg,  #fed1d7 0%, #ffeed2 51%, #c9f4ec 100%);
+    background: -webkit-linear-gradient(45deg,  #fed1d7 0%,#ffeed2 51%,#c9f4ec 100%);
+    background: linear-gradient(45deg,  #fed1d7 0%,#ffeed2 51%,#c9f4ec 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fed1d7', endColorstr='#c9f4ec',GradientType=1 );
+    border-radius: 12px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .30s linear;
+}
+.advanced_blocks_review.boxed_star_review:hover:before{
+    visibility: visible;
+    opacity: 1;
+}
+
+/*--------------------------------------------
+    // Reviewr Seperated
+--------------------------------------------*/
+.advanced_blocks_review_area.seperated_reviewer {
+    position: relative;
+    background: #5e44e2;
+    background: -moz-linear-gradient(45deg,  #5e44e2 0%, #4ce8ff 100%);
+    background: -webkit-linear-gradient(45deg,  #5e44e2 0%,#4ce8ff 100%);
+    background: linear-gradient(45deg,  #5e44e2 0%,#4ce8ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e44e2', endColorstr='#4ce8ff',GradientType=1 );
+}
+.advanced_blocks_review_area.seperated_reviewer::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/review/reviewShape.png) no-repeat;
+}
+
+.advanced_blocks_review.boxed_star_review.seperated_reviewer {
+    margin-top: 150px;
+    overflow: initial;
+    padding: 38px 40px 34px 40px;
+    border-radius: 36px;
+    box-shadow: 0px 6px 0px 0px #f8d34c;
+}
+
+.advanced_blocks_review.boxed_star_review.seperated_reviewer::before {
+    display: none;
+}
+
+.advanced_blocks_review.boxed_star_review.seperated_reviewer .reviewer_image:before,.advanced_blocks_review.boxed_star_review.seperated_reviewer .reviewer_image:after {
+    display: none;
+}
+
+.advanced_blocks_review.boxed_star_review.seperated_reviewer .reviewer_image {
+    position: absolute;
+    top: -150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.advanced_blocks_review.boxed_star_review.seperated_reviewer .reviewer_info {
+    margin-top: 0;
+}
+
+.advanced_blocks_review.boxed_star_review.seperated_reviewer .review_number {
+    background: transparent;
+    color: #fff15b;
+}
+
+.advanced_blocks_review.boxed_star_review.seperated_reviewer .review_blocks_content {
+    padding-top: 10px;
+}
+
+.advanced_blocks_review_content.heading h3 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0;
+    line-height: 70px;
+}
+
+.advanced_blocks_review_content.heading span {
+    color: #fff15b;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.advanced_blocks_review.boxed_star_review.seperated_reviewer .reviewer_image img {
+    height: 120px;
+    width: 120px;
+}
+
+.advanced_blocks_review_content.heading {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+/*---------------------------------------
+---------------------------------------*/
+
+.advanced_blocks_review.default.box_gradient .reviewer_image::before,.advanced_blocks_review.default.box_gradient .reviewer_image::after {
+    display: none;
+}
+
+.advanced_blocks_review.default.box_gradient {
+    border-radius: 0;
+    background: #ffffff;
+    box-shadow: 0px 5px 100px rgba(0,9,100,.05);
+    position: relative;
+}
+
+.advanced_blocks_review.default.box_gradient .review_number {
+    background: #5d64e7;
+    transition: all .20s linear;
+}
+
+.advanced_blocks_review.default.box_gradient .review_blocks_content {
+    padding: 20px 40px 0px 108px;
+    position: relative;
+}
+
+.advanced_blocks_review.default.box_gradient::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #4ce8ff;
+    background: -moz-linear-gradient(45deg,  #4ce8ff 0%, #2e37b4 100%);
+    background: -webkit-linear-gradient(45deg,  #4ce8ff 0%,#2e37b4 100%);
+    background: linear-gradient(45deg,  #4ce8ff 0%,#2e37b4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ce8ff', endColorstr='#2e37b4',GradientType=1 );
+    visibility: hidden;opacity: 0;transition: all .30s linear;
+}
+
+.advanced_blocks_review.default.box_gradient:hover .review_blocks_content p, .advanced_blocks_review.default.box_gradient:hover .reviwer_name,.advanced_blocks_review.default.box_gradient:hover .reviwer_desination {
+    color: #ffffff;
+}
+
+.advanced_blocks_review.default.box_gradient:hover .review_number {
+    background: #ffc64c;
+}
+
+.advanced_blocks_review.default.box_gradient:hover::before {
+    visibility: visible;
+    opacity: 1;
 }
