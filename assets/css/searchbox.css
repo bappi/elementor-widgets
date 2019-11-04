@@ -332,3 +332,56 @@
     opacity: .5;
 }
 /*  */
+
+.advanced_blocks_searchbox.horizontal {
+}
+
+.advanced_blocks_searchbox.horizontal .searcbox_area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.advanced_blocks_searchbox.horizontal .searcbox_area .advanced_blocks_field {
+    height: 55px;
+    line-height: 55px;
+    border-radius: 30px;
+    font-size: 18px;
+    color: #7e7e7e;
+    padding-left: 30px;
+}
+
+.advanced_blocks_searchbox.horizontal .searcbox_area .advanced_blocks_btn {
+    height: 47px;
+    width: 47px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px 3px rgba(238,84,32,.30);
+    background: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 102px;
+}
+
+.advanced_blocks_searchbox.horizontal .searcbox_area .advanced_blocks_btn i {
+    padding: 0;
+    font-size: 16px;
+    color: #7d88b9;
+}
+.advanced_blocks_searchbox.horizontal .searcbox_area {
+    background: #00a5b4;
+    background: -moz-linear-gradient(45deg,  #00a5b4 0%, #612f8e 25%, #b92390 50%, #ec4d25 75%, #f8d602 100%);
+    background: -webkit-linear-gradient(45deg,  #00a5b4 0%,#612f8e 25%,#b92390 50%,#ec4d25 75%,#f8d602 100%);
+    background: linear-gradient(45deg,  #00a5b4 0%,#612f8e 25%,#b92390 50%,#ec4d25 75%,#f8d602 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a5b4', endColorstr='#f8d602',GradientType=1 );
+    border-radius: 30px;
+    padding: 2px;
+}
+
+.advanced_blocks_searchbox.horizontal.simple_grad {
+    box-shadow: 0px 10px 25px 2px rgba(0,192,255,.11);
+    padding: 45px 80px 45px 80px;
+    border-radius: 22px;
+}
