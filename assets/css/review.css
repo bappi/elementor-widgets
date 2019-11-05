@@ -389,7 +389,8 @@
     width: 140px;
 }
 
-.advanced_blocks_review.default.horizontalCapsul .reviewer_image::before,.advanced_blocks_review.default.horizontalCapsul .reviewer_image::after {
+.advanced_blocks_review.default.horizontalCapsul .reviewer_image::before,
+.advanced_blocks_review.default.horizontalCapsul .reviewer_image::after {
     display: none;
 }
 
@@ -403,4 +404,245 @@
 .advanced_blocks_review.horizontalCapsul .advanced_blocks_dots li.slick-active {
     background: #ffffff;
     box-shadow: 0 0 0 3px rgba(34,205,128,.90);
+}
+
+.reviewShape {
+    right: -160px;
+    top: 42px;
+}
+
+/*------------------------------------
+------------------------------------*/
+
+.advanced_blocks_review.default.curvedRadius .review_blocks_content {
+    padding: 18px 0px 0px 180px;
+}
+.advanced_blocks_review.default.curvedRadius {
+    border-radius: 10px 100px 10px 100px;
+    position: relative;
+    background: #ffffff;
+    transition: all .20s linear;
+}
+
+.advanced_blocks_review.default.curvedRadius .reviewer_image::before,
+.advanced_blocks_review.default.curvedRadius .reviewer_image::after {
+    display: none;
+}
+
+.advanced_blocks_review.default.curvedRadius .reviewer_info {
+    padding-left: 0;
+}
+
+.advanced_blocks_review.default.curvedRadius .reviewer_image {
+    position: absolute;
+    left: 20px;
+    height: calc(100% - 40px);
+    top: 20px;
+    border-radius: 0px 0px 80px 0px;
+}
+
+.advanced_blocks_review.default.curvedRadius .review_blocks_head {
+    padding: 0px 0px 0px 180px;
+}
+
+.advanced_blocks_review.default.curvedRadius .reviewer_image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 0px 0px 80px;
+}
+.advanced_blocks_review.default.curvedRadius:hover {
+    box-shadow: 0px 0px 0px 1px #b7ffb7;
+}
+
+.advanced_blocks_review.default.curvedRadius .review_number {
+    background: #39dd39;
+}
+
+/*--------------------------------------------
+--------------------------------------------*/
+
+
+.advanced_blocks_review.verticalRadius .review_blocks_content {
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+.advanced_blocks_review.verticalRadius .reviwer_name {
+    font-size: 20px;
+    color: #2e2e4c;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+.advanced_blocks_review.verticalRadius .reviwer_desination {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #acacbb;
+}
+
+.advanced_blocks_review.verticalRadius .review_number {
+    color: #ffc64c;
+}
+
+.advanced_blocks_review.verticalRadius {
+    padding: 60px 35px 50px 35px;
+    border-radius: 146px;
+    box-shadow: 0px 5px 20px rgba(0,9,100,.05);
+    background: #ffffffff;
+}
+
+.advanced_blocks_review.verticalRadius .review_blocks_head {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.advanced_blocks_review.verticalRadius .reviewer_image {
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px #e7fbf2;
+}
+
+.advanced_blocks_review.verticalRadius .reviewer_image img {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+}
+
+.advanced_blocks_review.verticalRadius .reviewer_image::before,.advanced_blocks_review.verticalRadius .reviewer_image::after {
+    display: none;
+}
+
+.advanced_blocks_review.verticalRadius .reviewer_info {
+    text-align: center;
+    padding-top: 24px;
+}
+
+.advanced_blocks_review.verticalRadius .review_blocks_content p {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 30px;
+}
+
+
+.advanced_blocks_review_area.verticalRadius .overlay {
+    background: rgba(28,28,28,.90);
+}
+.advanced_blocks_review_area.verticalRadius .curveShpae{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/*--------------------------------------------
+--------------------------------------------*/
+
+
+@media (min-width: 768px) and (max-width: 991px){
+    .advanced_blocks_review.default.horizontalCapsul .review_blocks_content {
+        padding: 15px 0px 0px 172px;
+    }
+    .advanced_blocks_review.default.horizontalCapsul .review_blocks_head {
+        padding: 0px 0px 0px 172px;
+    }
+    .advanced_blocks_review_content.heading h3 {
+        font-size: 46px;
+    }
+}
+
+@media (max-width: 767px){
+    .advanced_blocks_review.default{
+        margin-bottom: 20px;
+    }
+    .advanced_blocks_review.boxed_star_review{
+        margin-bottom: 30px;
+    }
+    .advanced_blocks_review.boxed_star_review.seperated_reviewer{
+        margin-bottom: 30px;
+    }
+    .advanced_blocks_review.default.horizontalCapsul .reviewer_image img {
+    height: 130px;
+    width: 130px;
+}
+.advanced_blocks_review.default.horizontalCapsul .review_blocks_head {
+    padding: 0px 0px 0px 0px;
+    position: static;
+}
+.advanced_blocks_review.default.horizontalCapsul .review_blocks_content {
+    padding: 15px 0px 0px 0px;
+    text-align: left;
+}
+
+.advanced_blocks_review.default.horizontalCapsul .reviewer_image {
+    position: static;
+    transform: none;
+    margin-right: 25px;
+}
+
+.advanced_blocks_review.default.horizontalCapsul {
+    padding: 50px 30px 50px 30px;
+}
+}
+
+@media (max-width: 576px) {
+    .advanced_blocks_review.default.curvedRadius .review_blocks_content {
+    padding: 18px 0px 0px 20px;
+}
+
+.advanced_blocks_review.default .reviwer_name {
+    font-size: 18px;
+}
+
+.advanced_blocks_review.default.curvedRadius .reviewer_image img {
+    max-width: 100px;
+    margin-right: 15px;
+}
+.advanced_blocks_review.default.curvedRadius .review_blocks_head {
+    padding: 0px 0px 0px 0px;
+}
+.advanced_blocks_review.default.curvedRadius {
+    padding: 30px 30px 30px 23px;
+}
+.advanced_blocks_review.default.horizontalCapsul {
+    margin: 20px 10px 20px 10px;
+}
+.advanced_blocks_review.default.curvedRadius .reviewer_image {
+    position: static;
+    left: 0;
+    height: 150px;
+    top: 20px;
+    transform: none;
+}
+.advanced_blocks_review.default.horizontalCapsul .review_blocks_head {
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.advanced_blocks_review.default.horizontalCapsul.overflow-hidden .reviewer_info {
+    padding-top: 20px;
+}
+.advanced_blocks_review.default.horizontalCapsul .reviewer_image {
+    margin-right: 0;
+}
+.advanced_blocks_review.default.horizontalCapsul .review_blocks_content {
+    padding: 15px 0px 30px 0px;
+}
+.advanced_blocks_review.default.box_gradient .review_blocks_content {
+    padding: 20px 0px 0px 0px;
+}
+.advanced_blocks_review.default.box_gradient {
+    padding: 30px 15px 40px 15px;
+}
+.advanced_blocks_review.verticalRadius{
+    margin-bottom: 20px;
+}
+.advanced_blocks_review_content.heading {
+    align-items: center;
+}
+.advanced_blocks_review_content.heading h3 {
+    font-size: 40px;
+    line-height: 36px;
+}
 }
