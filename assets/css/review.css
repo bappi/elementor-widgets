@@ -563,86 +563,86 @@
         margin-bottom: 30px;
     }
     .advanced_blocks_review.default.horizontalCapsul .reviewer_image img {
-    height: 130px;
-    width: 130px;
-}
-.advanced_blocks_review.default.horizontalCapsul .review_blocks_head {
-    padding: 0px 0px 0px 0px;
-    position: static;
-}
-.advanced_blocks_review.default.horizontalCapsul .review_blocks_content {
-    padding: 15px 0px 0px 0px;
-    text-align: left;
-}
+        height: 130px;
+        width: 130px;
+    }
+    .advanced_blocks_review.default.horizontalCapsul .review_blocks_head {
+        padding: 0px 0px 0px 0px;
+        position: static;
+    }
+    .advanced_blocks_review.default.horizontalCapsul .review_blocks_content {
+        padding: 15px 0px 0px 0px;
+        text-align: left;
+    }
 
-.advanced_blocks_review.default.horizontalCapsul .reviewer_image {
-    position: static;
-    transform: none;
-    margin-right: 25px;
-}
+    .advanced_blocks_review.default.horizontalCapsul .reviewer_image {
+        position: static;
+        transform: none;
+        margin-right: 25px;
+    }
 
-.advanced_blocks_review.default.horizontalCapsul {
-    padding: 50px 30px 50px 30px;
-}
+    .advanced_blocks_review.default.horizontalCapsul {
+        padding: 50px 30px 50px 30px;
+    }
 }
 
 @media (max-width: 576px) {
     .advanced_blocks_review.default.curvedRadius .review_blocks_content {
-    padding: 18px 0px 0px 20px;
-}
+        padding: 18px 0px 0px 20px;
+    }
 
-.advanced_blocks_review.default .reviwer_name {
-    font-size: 18px;
-}
+    .advanced_blocks_review.default .reviwer_name {
+        font-size: 18px;
+    }
 
-.advanced_blocks_review.default.curvedRadius .reviewer_image img {
-    max-width: 100px;
-    margin-right: 15px;
-}
-.advanced_blocks_review.default.curvedRadius .review_blocks_head {
-    padding: 0px 0px 0px 0px;
-}
-.advanced_blocks_review.default.curvedRadius {
-    padding: 30px 30px 30px 23px;
-}
-.advanced_blocks_review.default.horizontalCapsul {
-    margin: 20px 10px 20px 10px;
-}
-.advanced_blocks_review.default.curvedRadius .reviewer_image {
-    position: static;
-    left: 0;
-    height: 150px;
-    top: 20px;
-    transform: none;
-}
-.advanced_blocks_review.default.horizontalCapsul .review_blocks_head {
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-}
-.advanced_blocks_review.default.horizontalCapsul.overflow-hidden .reviewer_info {
-    padding-top: 20px;
-}
-.advanced_blocks_review.default.horizontalCapsul .reviewer_image {
-    margin-right: 0;
-}
-.advanced_blocks_review.default.horizontalCapsul .review_blocks_content {
-    padding: 15px 0px 30px 0px;
-}
-.advanced_blocks_review.default.box_gradient .review_blocks_content {
-    padding: 20px 0px 0px 0px;
-}
-.advanced_blocks_review.default.box_gradient {
-    padding: 30px 15px 40px 15px;
-}
-.advanced_blocks_review.verticalRadius{
-    margin-bottom: 20px;
-}
-.advanced_blocks_review_content.heading {
-    align-items: center;
-}
-.advanced_blocks_review_content.heading h3 {
-    font-size: 40px;
-    line-height: 36px;
-}
+    .advanced_blocks_review.default.curvedRadius .reviewer_image img {
+        max-width: 100px;
+        margin-right: 15px;
+    }
+    .advanced_blocks_review.default.curvedRadius .review_blocks_head {
+        padding: 0px 0px 0px 0px;
+    }
+    .advanced_blocks_review.default.curvedRadius {
+        padding: 30px 30px 30px 23px;
+    }
+    .advanced_blocks_review.default.horizontalCapsul {
+        margin: 20px 10px 20px 10px;
+    }
+    .advanced_blocks_review.default.curvedRadius .reviewer_image {
+        position: static;
+        left: 0;
+        height: 150px;
+        top: 20px;
+        transform: none;
+    }
+    .advanced_blocks_review.default.horizontalCapsul .review_blocks_head {
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .advanced_blocks_review.default.horizontalCapsul.overflow-hidden .reviewer_info {
+        padding-top: 20px;
+    }
+    .advanced_blocks_review.default.horizontalCapsul .reviewer_image {
+        margin-right: 0;
+    }
+    .advanced_blocks_review.default.horizontalCapsul .review_blocks_content {
+        padding: 15px 0px 30px 0px;
+    }
+    .advanced_blocks_review.default.box_gradient .review_blocks_content {
+        padding: 20px 0px 0px 0px;
+    }
+    .advanced_blocks_review.default.box_gradient {
+        padding: 30px 15px 40px 15px;
+    }
+    .advanced_blocks_review.verticalRadius{
+        margin-bottom: 20px;
+    }
+    .advanced_blocks_review_content.heading {
+        align-items: center;
+    }
+    .advanced_blocks_review_content.heading h3 {
+        font-size: 40px;
+        line-height: 36px;
+    }
 }
