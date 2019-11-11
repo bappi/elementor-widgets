@@ -1,24 +1,99 @@
-.advanced_blocks_callto_action.type-1 h4 {
+.advanced_blocks_callto_action.default h4 {
 	font-size: 28px;
 	color: #2f2f2f;
 	margin-bottom: 13px
 }
 
-.advanced_blocks_callto_action.type-1 p {
+.advanced_blocks_callto_action.default p {
 	margin-bottom: 35px
 }
 
-.advanced_blocks_callto_action.type-1 button+button {
+.advanced_blocks_callto_action.default button+button {
 	margin-left: 30px
 }
+.advanced_blocks_callto_action.default {
+    padding: 110px 0 110px 0;
+    box-shadow: 0px 0px 60px rgba(0,0,0,.05);
+}
 
+/*--------------------------------------------
+--------------------------------------------*/
+
+.advanced_blocks_callto_action.with_icon.boxed {
+    position: relative;
+    padding: 60px 60px 60px 170px;
+    border-radius: 16px;
+}
+
+.advanced_blocks_callto_action.with_icon.boxed .big_icon {
+    position: absolute;
+    left: 45px;
+    font-size: 65px;
+    color: #ffffff;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.advanced_blocks_callto_action.with_icon.boxed .advanced_blocks_btn {
+    position: absolute;
+    right: 98px;
+    top: 50%;
+    border-radius: 6px;
+    color: #ff555e;
+    background: #ffffff;
+    border: none;
+    box-shadow: 0px 3px 20px rgba(0,0,0,.05);
+    font-size: 16px;
+    min-width: 150px;
+}
+
+.advanced_blocks_callto_action.with_icon.boxed .callto_action_subtitle {
+    color: #ffffff;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.advanced_blocks_callto_action.with_icon.boxed .callto_action_title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 40px;
+    margin-bottom: 16px;
+}
+/*--------------------------------------------
+--------------------------------------------*/
+
+
+/*--------------------------------------------
+--------------------------------------------*/
+/*--------------------------------------------
+--------------------------------------------*/
+
+
+/*--------------------------------------------
+--------------------------------------------*/
+/*--------------------------------------------
+--------------------------------------------*/
+
+
+/*--------------------------------------------
+--------------------------------------------*/
+/*--------------------------------------------
+--------------------------------------------*/
+
+
+/*--------------------------------------------
+--------------------------------------------*/
+/*--------------------------------------------
+--------------------------------------------*/
 @media (max-width: 767px){
-	.advanced_blocks_callto_action.type-1 p {
+	.advanced_blocks_callto_action.default p {
 	    margin-bottom: 20px;
 	}
 }
 @media (max-width:575px) {
-	.advanced_blocks_callto_action.type-1 button+button {
+	.advanced_blocks_callto_action.default button+button {
 		margin-left: 0;
 		margin-top: 20px
 	}
