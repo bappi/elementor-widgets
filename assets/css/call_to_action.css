@@ -63,7 +63,137 @@
 }
 /*--------------------------------------------
 --------------------------------------------*/
+.advanced_blocks_callto_action.full_width {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 120px 0;
+}
+.advanced_blocks_callto_action.full_width .advanced_blocks_btn {
+    background: #ffec97;
+    border-radius: 25px;
+    padding: 0 50px;
+    border: none;
+    color: #471ef6;
+    text-transform: uppercase;
+}
 
+.advanced_blocks_callto_action.full_width .callto_action_subtitle {
+    font-size: 22px;
+    color: #c7d7ff;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.advanced_blocks_callto_action.full_width .callto_action_title {
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+/*--------------------------------------------
+--------------------------------------------*/
+.advanced_blocks_callto_action.dual_button.withoverlay {
+    position: relative;
+}
+
+.advanced_blocks_callto_action.dual_button.withoverlay .advanced_blocks_btn {
+    position: relative;
+    font-size: 16px;
+}
+
+.advanced_blocks_callto_action.dual_button.withoverlay .callto_action_subtitle {
+    position: relative;
+    z-index: 5;
+    color: #d8d8d8;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.advanced_blocks_callto_action.dual_button.withoverlay .callto_action_title {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 400;
+    position: relative;
+    z-index: 1;
+}
+
+.advanced_blocks_callto_action.dual_button.withoverlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 112px 0;
+}
+
+.advanced_blocks_callto_action.dual_button.withoverlay::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,10,.80);
+    z-index: 0;
+}
+
+.advanced_blocks_callto_action.dual_button.withoverlay .advanced_blocks_btn:not(:last-child) {
+    background: #ffffff;
+    color: #5a2eff;
+    margin-right: 20px;
+}
+
+.advanced_blocks_callto_action.dual_button.withoverlay .advanced_blocks_btn:last-child {
+    border: 2px solid #ffffff;
+    background: transparent;
+    line-height: 44px;
+}
+/*--------------------------------------------
+--------------------------------------------*/
+
+.advanced_blocks_callto_action.with_image .advanced_blocks_btn {
+    background: #2b1e56;
+    text-transform: uppercase;
+    border: 1px solid #2b1e56;
+}
+
+.advanced_blocks_callto_action.with_image .callto_action_title {
+    font-size: 50px;
+    font-weight: 400;
+    color: #2b1e56;
+    line-height: 50px;
+    margin-bottom: 33px;
+}
+
+.advanced_blocks_callto_action.with_image .callto_action_subtitle {
+    font-size: 16px;
+    color: #3d3d3d;
+}
+
+.advanced_blocks_callto_action.with_image {
+    position: relative;
+    background: #ffe981;
+    padding: 75px 0;
+}
+
+.advanced_blocks_callto_action.with_image .callto-image {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.advanced_blocks_callto_action.with_image .callto_action_content {
+    padding-left: 60px;
+}
+
+.advanced_blocks_callto_action.with_image .advanced_blocks_btn:hover {
+    background: transparent;
+    color: #2b1e56;
+}
 
 /*--------------------------------------------
 --------------------------------------------*/
@@ -82,20 +212,101 @@
 /*--------------------------------------------
 --------------------------------------------*/
 
-
-/*--------------------------------------------
---------------------------------------------*/
-/*--------------------------------------------
---------------------------------------------*/
+@media (min-width: 992px) and (max-width: 1024px) {
+    .advanced_blocks_callto_action.with_image .callto_action_title {
+        font-size: 30px;
+        margin-bottom: 23px;
+    }
+    .advanced_blocks_callto_action.with_image .callto_action_subtitle {
+        font-size: 14px;
+    }
+    
+    
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .advanced_blocks_callto_action.with_image .callto_action_title {
+        font-size: 27px;
+        line-height: 50px;
+        margin-bottom: 18px;
+    }
+    .advanced_blocks_callto_action.with_icon.boxed .advanced_blocks_btn {
+        position: static;
+        margin-top: 30px;
+    }
+}
 @media (max-width: 767px){
 	.advanced_blocks_callto_action.default p {
 	    margin-bottom: 20px;
 	}
+
+    .advanced_blocks_callto_action.with_image .callto_action_title {
+        font-size: 27px;
+        line-height: 50px;
+        margin-bottom: 18px;
+    }
+    .advanced_blocks_callto_action.with_icon.boxed .advanced_blocks_btn {
+        position: static;
+        margin-top: 30px;
+    }
+    .advanced_blocks_callto_action.with_icon.boxed .callto_action_title {
+        font-size: 24px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+    .advanced_blocks_callto_action.with_icon.boxed .callto_action_subtitle {
+        margin-bottom: 0;
+        font-size: 14px;
+    }
+    .advanced_blocks_callto_action.full_width .callto_action_title {
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+    .advanced_blocks_callto_action.full_width .callto_action_subtitle {
+        font-size: 15px;
+        margin-bottom: 22px;
+    }
+    .advanced_blocks_callto_action.full_width {
+        padding: 70px 0;
+    }
+    .advanced_blocks_callto_action.dual_button.withoverlay .callto_action_title {
+        font-size: 30px;
+        z-index: 1;
+    }
+    .advanced_blocks_callto_action.dual_button.withoverlay .callto_action_subtitle {
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
 }
 @media (max-width:575px) {
 	.advanced_blocks_callto_action.default button+button {
 		margin-left: 0;
 		margin-top: 20px
 	}
+    .advanced_blocks_callto_action.with_icon.boxed {
+        padding: 60px 30px 60px 30px;
+    }
+    .advanced_blocks_callto_action.with_icon.boxed .big_icon {
+        font-size: 65px;
+        transform: translateY(-50%);
+        opacity: .30;
+    }
+    .advanced_blocks_callto_action.full_width {
+        padding: 70px 10px;
+    }
+    .advanced_blocks_callto_action.with_image .callto-image {
+        width: 100%;
+        position: static;
+        margin-bottom: 20px;
+    }
+    .advanced_blocks_callto_action.with_image .callto_action_title {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+    .advanced_blocks_callto_action.with_image .callto_action_content {
+        padding-left: 20px;
+    }
+    .advanced_blocks_callto_action.dual_button.withoverlay .advanced_blocks_btn:not(:last-child){
+        margin-bottom: 15px;
+    }
 
 }
