@@ -33,13 +33,294 @@
 /*  */
 
 /*  */
+.advanced_blcoks_countdown_container.default .kounty-countdown {
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+    display: flex;
+}
+
+.advanced_blcoks_countdown_container.default .advanced_blocks_btn {
+    line-height: 44px;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 0 30px;
+    background: #ff747e;
+    background: -moz-linear-gradient(-45deg,  #ff747e 0%, #9536ff 100%);
+    background: -webkit-linear-gradient(-45deg,  #ff747e 0%,#9536ff 100%);
+    background: linear-gradient(135deg,  #ff747e 0%,#9536ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff747e', endColorstr='#9536ff',GradientType=1 );
+    border: none;
+    font-weight: 600;
+    color: #ffffff;
+    position: relative;
+}
+
+.advanced_blcoks_countdown_container.default {
+    padding: 30px 30px 30px 30px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.advanced_blcoks_countdown_container.default .countdown_content {
+    width: 50%;
+}
+
+.advanced_blcoks_countdown_container.default .coundown_subtitle {
+    color: #ffffff;
+    margin-bottom: 55px;
+    position: relative;
+}
+
+.advanced_blcoks_countdown_container.default .countdown_title {
+    font-size: 30px;
+    color: #ffd850;
+    line-height: 30px;
+    position: relative;
+    z-index: 9;
+    margin-bottom: 15px;
+}
+
+.advanced_blcoks_countdown_container.default .kounty-countdown > span {
+    width: 68px;
+    height: 62px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgba(255,255,255,.10);
+    margin-right: 5px;
+    font-size: 26px;
+    color: #fff6a9;
+    font-weight: 700;
+    line-height: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.05);
+}
+
+.advanced_blcoks_countdown_container.default .kounty-countdown > span > span {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color:#ffffff;
+}
+
+.advanced_blcoks_countdown_container.default .kounty-countdown > span:last-child {
+    margin-right: 0;
+}
+
+.advanced_blcoks_countdown_container.default::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #9536ff;
+    background: -moz-linear-gradient(-45deg,  #9536ff 0%, #ff747e 100%);
+    background: -webkit-linear-gradient(-45deg,  #9536ff 0%,#ff747e 100%);
+    background: linear-gradient(135deg,  #9536ff 0%,#ff747e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9536ff', endColorstr='#ff747e',GradientType=1 );
+    width: 100%;height: 100%;border-radius: 16px;opacity: .95;
+}
 /*  */
 
 /*  */
+.advanced_blcoks_countdown_container.black.no_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 72px 0;
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.advanced_blcoks_countdown_container.black.no_button .kounty-countdown {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 9;
+}
+
+.advanced_blcoks_countdown_container.black.no_button .coundown_subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    color: #ff581c;
+    position: relative;
+    z-index: 9;
+}
+
+.advanced_blcoks_countdown_container.black.no_button .countdown_title {
+    font-size: 40px;
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 31px;
+    position: relative;
+    z-index: 9;
+    margin-bottom: 15px;
+}
+
+.advanced_blcoks_countdown_container.black.no_button .kounty-countdown > span {
+    font-size: 30px;
+    font-weight: 400;
+    display: flex;
+    flex-flow: column;
+    color: #ffffff;
+    line-height: 26px;
+}
+
+.advanced_blcoks_countdown_container.black.no_button .kounty-countdown > span > span {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.advanced_blcoks_countdown_container.black.no_button .kounty-countdown > span:not(:last-child) {
+    margin-right: 60px;
+}
+
+.advanced_blcoks_countdown_container.black.no_button::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(49,52,58,.80);
+}
 /*  */
 
 /*  */
+
+.advanced_blcoks_countdown_container.default.with_model .kounty-countdown {
+    display: flex;
+    position: relative;
+    z-index: 50;
+    top: 0;
+    left: 0;
+    padding-top: 4px;
+}
+
+.advanced_blcoks_countdown_container.default.with_model .countdown_text {
+    font-size: 20px;
+    color: #595d84;
+    font-weight: 400;
+}
+
+.advanced_blcoks_countdown_container.default.with_model {
+    background: #ffffff;
+    padding: 40px 30px 30px 30px;
+    border-radius: 0;
+    box-shadow: 0px 26px 43px rgba(124,43,143,.15);
+}
+
+.advanced_blcoks_countdown_container.default.with_model .coundown_subtitle {
+    font-size: 20px;
+    color: #595d84;
+    position: relative;
+}
+
+.advanced_blcoks_countdown_container.default.with_model .countdown_content {
+    width: 100%;
+}
+
+.advanced_blcoks_countdown_container.default.with_model .countdown_title {
+    color: #582664;
+    font-size: 30px;
+}
+
+.advanced_blcoks_countdown_container.default.with_model .countdown_img1 {
+    position: absolute;
+    right: 0;
+    z-index: 0;
+    top: 0;
+    height: 100%;
+}
+
+.advanced_blcoks_countdown_container.default.with_model::before {
+    display: none;
+}
+
+.advanced_blcoks_countdown_container.default.with_model .countdown_text span {
+    font-weight: 700;
+    font-size: 24px;
+    color: #db0a8a;
+}
+
+.advanced_blcoks_countdown_container.default.with_model .kounty-countdown > span {
+    background: #fac536;
+    border-radius: 0;
+    color: #ffffff;
+    line-height: 22px;
+}
 /*  */
 
 /*  */
+
+.advanced_blcoks_countdown_container.plain.with_model .countdown_content {
+    width: 100%;
+}
+
+.advanced_blcoks_countdown_container.plain.with_model .countdown_title {
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+.advanced_blcoks_countdown_container.plain.with_model {
+    background: #495efb;
+    background: -moz-linear-gradient(-45deg,  #495efb 0%, #40b1eb 100%);
+    background: -webkit-linear-gradient(-45deg,  #495efb 0%,#40b1eb 100%);
+    background: linear-gradient(135deg,  #495efb 0%,#40b1eb 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#495efb', endColorstr='#40b1eb',GradientType=1 );
+    padding: 40px 40px 75px 40px;
+    position: relative;
+    box-shadow: 0px 26px 43px rgba(124,43,143,.15);
+}
+
+.advanced_blcoks_countdown_container.plain.with_model .countdown_img1 {
+    position: absolute;
+    right: -67px;
+    bottom: 0;
+}
+
+.advanced_blcoks_countdown_container.plain.with_model .countdown_title {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.advanced_blcoks_countdown_container.plain.with_model .countdown_title span {
+    font-weight: 700;
+    color: #ffd131;
+}
+
+.advanced_blcoks_countdown_container.plain.with_model .kounty-countdown {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.advanced_blcoks_countdown_container.plain.with_model .kounty-countdown > span {
+    font-size: 48px;
+    color: #ffffff;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+}
+
+.advanced_blcoks_countdown_container.plain.with_model .kounty-countdown > span > span {
+    font-size:16px;
+}
+
+.advanced_blcoks_countdown_container.plain.with_model .kounty-countdown > span:not(:last-child) {
+    margin-right: 30px;
+}
 /*  */
+
+/**/
+
+/**/
