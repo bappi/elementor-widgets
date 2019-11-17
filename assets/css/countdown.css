@@ -323,4 +323,96 @@
 
 /**/
 
+.advanced_blcoks_countdown_container.hour_countdown.no_model .countdown_title {
+    font-size: 80px;
+    text-align: center;
+    line-height: 56px;
+    color: #ffffff;
+}
+
+.advanced_blcoks_countdown_container.hour_countdown.no_model .countdown_content_top {
+    padding: 85px 0;
+    background: #ff4c4c;
+    background: -moz-linear-gradient(-45deg,  #ff4c4c 0%, #ff68a8 99%);
+    background: -webkit-linear-gradient(-45deg,  #ff4c4c 0%,#ff68a8 99%);
+    background: linear-gradient(135deg,  #ff4c4c 0%,#ff68a8 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4c4c', endColorstr='#ff68a8',GradientType=1 );
+    border-radius: 20px;
+}
+
+.advanced_blcoks_countdown_container.hour_countdown.no_model .countdown_title span {
+    font-size: 22px;
+    display: block;
+    font-weight: 600;
+}
+
+.advanced_blcoks_countdown_container.hour_countdown.no_model .countdown_content_down {
+    text-align: center;
+    padding: 35px 80px;
+}
+
+.advanced_blcoks_countdown_container.hour_countdown.no_model .countdown_content_down .countdown_text {font-size: 18px;color: #565391;margin-bottom: 0;}
+
+.advanced_blcoks_countdown_container.hour_countdown.no_model .coundown_subtitle {
+    font-size: 16px;
+    color: #83819b;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+
+.advanced_blcoks_countdown_container.hour_countdown.no_model {
+    box-shadow: 0 10px 40px rgba(124,43,123,.10);
+}
+
+.advanced_blcoks_countdown_container.hour_countdown.no_model .advanced_blocks_btn {
+    line-height: 41px;
+    padding: 0 35px;
+    border-radius: 22.5px;
+    box-shadow: 0px 10px 38px rgba(255,97,123,.20);
+    background: #ff4c4c;
+    background: -moz-linear-gradient(-45deg,  #ff4c4c 0%, #ff68a8 99%);
+    background: -webkit-linear-gradient(-45deg,  #ff4c4c 0%,#ff68a8 99%);
+    background: linear-gradient(135deg,  #ff4c4c 0%,#ff68a8 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4c4c', endColorstr='#ff68a8',GradientType=1 );
+    color: #ffffff;
+}
+
+.advanced_blcoks_countdown_container.hour_countdown.no_model .kounty-countdown {
+    display: flex;
+    margin: 30px 0 30px 0;
+}
+
+.advanced_blcoks_countdown_container.hour_countdown.no_model .kounty-countdown {}
+
+.advanced_blcoks_countdown_container.hour_countdown.no_model .kounty-countdown > span {
+    height: 74px;
+    width: 74px;
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #565391;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.advanced_blcoks_countdown_container.hour_countdown.no_model .kounty-countdown > span > span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.advanced_blcoks_countdown_container.hour_countdown.no_model .kounty-countdown > span:not(:last-child) {
+    margin-right: 15px;
+}
+
+.advanced_blcoks_countdown_container.hour_countdown.no_model .countdown_content_top::after {position: absolute;}
+/**/
+
+/**/
 /**/
