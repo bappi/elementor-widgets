@@ -38,6 +38,7 @@
 4. LightBox and Modals
 5. Flip Carousel 
 6. Counter (Fun Facts)
+7. Business Hours
 
 
 ## Section Elements: 
