@@ -6,9 +6,7 @@
 2. Post Masonry (2,3,4 Columns)
 3. Post Timeline (Option in Timeline to select content source)
 4. Post List (With/ Without Featured Image)
-5. Content Switch (Pro)
 6. Post Carousel 
-7. Protected Content (Pro) --- With Content Protection Extension??
 8. Offcanvas Content (Pro)
 9. Post Gallery (Filterable Category) (Pro)
 
@@ -29,6 +27,7 @@
 14. Timeline
 15. Weather Card
 16. Quotes Slider
+17. Content Switch (Pro)
 
 ## Creative Elements:
 
@@ -38,6 +37,7 @@
 4. LightBox and Modals
 5. Flip Carousel 
 6. Counter (Fun Facts)
+7. Business Hours
 
 
 ## Section Elements: 
@@ -154,6 +154,7 @@
 8. Section Sticky (Pro)
 9. Widget Tooltip
 10. Content Protection (Pro)
+11. Share Protection (Pro)
 
 ## Marketing and Promotion: 
 
