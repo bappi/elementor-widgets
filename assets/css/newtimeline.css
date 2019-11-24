@@ -1,0 +1,171 @@
+/**/
+
+.advanced_blocks_timeline.default {
+    position: relative;
+}
+.advanced_blocks_timeline.default .post_seperator {
+    position: relative;
+    width: 26px;
+    height: 4px;
+    border-radius: 2px;
+    background: #a838e2;
+    display: inline-block;
+}
+
+.advanced_blocks_timeline.default .post_body {
+    padding: 36px 45px 46px 45px;
+}
+
+.advanced_blocks_timeline.default .post_image img {
+    max-width: 100%;
+}
+
+.advanced_blocks_timeline.vertical .timeline_item {
+    display: flex;
+    position: relative;
+    margin-bottom: 45px;
+    align-self: flex-end;
+    flex-flow: row !important;
+    max-width: calc(50% - 50px);
+}
+.advanced_blocks_timeline.vertical .timeline_item:last-child{
+    margin-bottom: 0;
+}
+
+.advanced_blocks_timeline.vertical {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-flow: column;
+    position: relative;
+}
+
+.advanced_blocks_timeline.vertical .timeline_item:nth-child(2n+1) {
+    align-self: flex-start;
+    }
+
+.advanced_blocks_timeline.vertical::before {
+    content: "";
+    position: absolute;
+    right: 50%;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background: #8a8ea7;
+}
+
+.advanced_blocks_timeline.default .timeline_item {
+    background: #ffffff;
+    box-shadow: 0 0 20px rgba(0,22,190,.10);
+}
+
+.advanced_blocks_timeline.default .post_meta {
+    position: absolute;
+    top: 0;
+    width: 200px;
+    background: #8a8ea7;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-weight: 300;
+    box-shadow: 0 0 20px rgba(0,22,190,.10);
+    right: calc(100% + 90px);
+}
+
+.advanced_blocks_timeline.default .post_paragraph {
+    margin-bottom: 0;
+    color: #696f86;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.advanced_blocks_timeline.default .timeline_item:nth-child(2n+1) .post_meta {
+    left: calc(100% + 90px);
+}
+
+.advanced_blocks_timeline.default .post_title {
+    font-weight: 700;
+    color: #171f3e;
+    font-size: 25px;
+    line-height: 32px;
+    display: block;
+}
+
+.advanced_blocks_timeline.default .post_seperator::after,
+.advanced_blocks_timeline.default .post_seperator::before {
+    content: "";
+    position: absolute;
+    left: calc(100% + 4px);
+    height: 100%;
+    width: 4px;
+    border-radius: 50%;
+    background: #c7c8cc;
+}
+
+.advanced_blocks_timeline.default .post_seperator::before {
+    left: calc(100% + 12px);
+}
+
+.advanced_blocks_timeline.default .meta_date_icon {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #171f3e;
+    border-radius: 50%;
+    top: -7px;
+    font-size: 20px;
+    box-shadow: 0 0 20px rgba(0,22,190,.10);
+    left: calc(100% + 12px);
+}
+.advanced_blocks_timeline.default  .timeline_item:nth-child(2n+1)  .meta_date_icon{
+    left: -67px;
+}
+/**/
+
+/**/
+@media (min-width: 991px) and (max-width: 1100px){
+    .advanced_blocks_section_title.testimonial {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 575px ){
+    .advanced_blocks_testimonial.default{
+        margin-bottom: 15px;
+    }
+    .advanced_blocks_testimonial.with_quote {
+        padding: 55px 15px 55px 15px;
+    }
+    .advanced_blocks_testimonial.with_quote .testimonial_blocks_body p {
+        font-size: 16px;
+    }
+    .advanced_blocks_testimonial.with_quote .client_img {
+        height: 140px;
+        width: 140px;
+        margin-left: 0;
+        position: static;
+        right: 0;
+        top: 0;
+        transform: none;
+        opacity: 1;
+    }
+    .advanced_blocks_testimonial.with_quote .testimonial_blocks_body {
+        width: 100%;
+    }
+    .advanced_blocks_testimonial.with_quote .client_content {
+        z-index: 20;
+        margin-top: 30px;
+    }
+    .advanced_blocks_testimonial.with_quote .quote_icon {
+        height: 65px;
+        width: 65px;
+        font-size: 23px;
+    }
+}
+/**/

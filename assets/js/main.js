@@ -69,6 +69,7 @@
         }
         if(jQuery(this).hasAttr('arrows')){
             arrows = jQuery(this).attr('arrows');
+            console.log('arrya is ',  arrows);
         }
         if(jQuery(this).hasAttr('slidesToShow')){
             slidesToShow = jQuery(this).attr('slidesToShow');
@@ -90,13 +91,13 @@
             slidesToShow: slidesToShow ? parseInt(slidesToShow[0]) : 1,
             centerPadding:  centerPadding ? centerPadding : '0px',
             slidesToScroll: 1,
-            dots: dots ? true : false,
+            dots: dots === 'true' ? true : false,
             centerMode: centerMode ? true : false,
-            arrows: arrows ? true : false,
-            nextArrow: arrows ? '<button type="button" class="slick-next">' + nextArrow + '</button>' : null,
-            prevArrow: arrows ? '<button type="button" class="slick-prev">' + prevArrow + '</button>' : null,
-            dotsClass: dots ? dotsClass : null,
-            autoplay: autoplay ? autoplay : false,
+            arrows: arrows === 'true' ? true : false,
+            nextArrow: arrows === 'true' ? '<button type="button" class="slick-next">' + nextArrow + '</button>' : null,
+            prevArrow: arrows === 'true' ? '<button type="button" class="slick-prev">' + prevArrow + '</button>' : null,
+            dotsClass: dots === 'true' ? dotsClass : null,
+            autoplay: autoplay === 'true' ? autoplay : false,
             autoplaySpeed: 3500,
             responsive: slidesToShow ? responsiveOptions(slidesToShow) : null
         })
@@ -269,8 +270,7 @@
         });
       });
     });
-    // Countdown
-    $('.kounty-countdown').kounty()
+    
 
 
     // Convert All Image to SVG
@@ -315,7 +315,9 @@
 
     jQuery(document).ready(function(){
       
-      
+      // Countdown
+    $('.kounty-countdown').kounty();
+
         jQuery('.advanced_radius_progressbar').each(function(index, el) {
             var jQuerythis = jQuery(this);
           
