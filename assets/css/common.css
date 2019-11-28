@@ -85,7 +85,15 @@ h2:before {
 .advanced_blocks_btn {
     transition: all .20s linear;
 }
-
+.advanced_transition_xs{
+    transition: all .10s linear;
+}
+.advanced_transition_sm{
+    transition: all .20s linear;
+}
+.advanced_transition_ms{
+    transition: all .30s linear;
+}
 /*---------------------------------
     //Spacing Css
 ---------------------------------*/
@@ -278,6 +286,57 @@ select.advanced_blocks_field, .advanced_blocks_field[type=text], .advanced_block
     display: flex;
 }
 
+/*--------------------------------------
+    //Checkbox
+--------------------------------------*/
+.advanced_blocks_checkbox {
+    position: relative;
+    margin-top: 10px;
+}
+.advanced_blocks_checkbox label {
+    font-size: 16px;
+    color: #888888;
+    letter-spacing: .5px;
+    margin-bottom: 0;
+    margin-left: 1px;
+}
+
+.advanced_blocks_checkbox input {
+    position: absolute;
+    left: 8px;
+    opacity: 0;
+    top: 5px;
+    z-index: 5;
+}
+.advanced_blocks_checkbox input:checked + label{
+    color:#aaa;
+}
+.advanced_blocks_checkbox label::before {
+    content: "";
+    position: absolute;
+    left: 7px;
+    top: 3px;
+    height: 16px;
+    width: 16px;
+    border: 2px solid #8886a4;
+    border-radius: 3px;
+    background: #f5f8fa;
+}
+.advanced_blocks_checkbox label::after{
+    content: "dd";
+    position: absolute;
+    left: 5px;
+    top: -1px;
+    visibility: hidden;
+}
+.advanced_blocks_checkbox input:checked + label::after{
+    visibility: visible;
+    opacity: 1;
+}
+/*.advanced_blocks_checkbox input:checked + label::before{
+    visibility: visible;
+    opacity: 1;
+}*/
 /*----------------------------------------
     //Button Css
 ----------------------------------------*/

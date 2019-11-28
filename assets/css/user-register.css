@@ -1,0 +1,439 @@
+
+.advanced_blocks_user_register.default .user_register_body {
+    background: #ffffff;
+    padding: 50px 40px 9px 40px;
+}
+.advanced_blocks_user_register.default:hover {box-shadow: 0px 2px 0px 1px #2F62F4;}
+.advanced_blocks_user_register.default {
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,.06);
+}
+
+.advanced_blocks_user_register.default .user_register_header {
+    padding: 40px 0 40px 0;
+    background: #2f62f4;
+    position: relative;
+}
+
+.user_register_header h4 {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.user_register_header p {
+    margin-bottom: 0;
+    color: #e1e9ff;
+    font-size: 16px;
+}
+.advanced_blocks_user_register.default .advanced_blocks_field_group {
+    margin-bottom: 20px;
+}
+
+.advanced_blocks_user_register.default .advanced_blocks_field {
+    line-height: 50px;
+    height: 50px;
+    background: #f6f7fa;
+    border-color: #eeeeee;
+    font-size: 16px;
+    color: #737373;
+    border-radius: 1px;
+}
+
+.advanced_blocks_user_register.default .user_register_link {
+    font-size: 17px;
+    color: #386cff;
+}
+
+.advanced_blocks_user_register.default .user_register_text {
+    color: #b6b6b6;
+    font-size: 14px;
+}
+
+.advanced_blocks_user_register.default .user_register_footer {
+    padding: 0px 40px 50px 40px;
+    background: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.advanced_blocks_user_register.default .user_register_footer > div {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.advanced_blocks_user_register.default .user_register_footer .register_footer_right {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.user_register_footer .advanced_blocks_btn {
+    background: #386cff;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0 44px;
+}
+
+.advanced_blocks_user_register.default .user_register_footer .register_footer_left {
+	text-align: left;
+}
+.advanced_blocks_user_register.default .user_register_header::before {
+	content: "";
+	position: absolute;
+	right: 0;
+	border-right: 0px solid #386cff;
+	border-bottom: 45px solid #386cff;
+	border-left: 300px solid transparent;
+	bottom: 0;
+}
+
+.user_register_footer .advanced_blocks_btn:hover {
+    background: transparent;
+    box-shadow: 0px -1px 1px 2px #386cff;
+    color: #386cff;
+    border-radius: 2px;
+}
+/*  */
+
+/*  */
+
+.advanced_blocks_user_register.sign_up.wide_body .user_register_body {
+    padding: 70px 70px 60px 70px;
+    background: #ffffff;
+    border-radius: 50px;
+    border: 20px solid #f1f7fe;
+}
+
+.advanced_blocks_user_register.sign_up.wide_body .user_register_header {
+    text-align: center;
+    padding: 50px 0;
+    position: relative;
+    border-radius: 36px 36px 0 0;
+    overflow: hidden;
+}
+
+.advanced_blocks_user_register.sign_up.wide_body .user_register_header h4 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.advanced_blocks_user_register.sign_up.wide_body .user_register_header p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
+
+.advanced_blocks_user_register.sign_up.wide_body .user_register_header::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(9,0,59,.70);
+	z-index: 0;
+}
+
+.advanced_blocks_user_register.sign_up.wide_body .register_footer_right {
+    display: flex;
+    flex-flow: column;
+}
+
+.advanced_blocks_user_register.sign_up.wide_body {
+    background: #f3f9fe;
+    border-radius: 36px 36px 36px 36px;
+}
+
+.advanced_blocks_user_register.sign_up.wide_body .user_register_link {
+    font-size: 16px;
+    color: #4931dc;
+    font-weight: 400;
+}
+
+.advanced_blocks_user_register.sign_up.wide_body .advanced_blocks_btn {
+    margin-bottom: 25px;
+    border-radius: 30px;
+    padding: 0 100px;
+}
+
+.advanced_blocks_user_register.sign_up.wide_body .register_footer_left {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.advanced_blocks_user_register.sign_up.wide_body .advanced_blocks_field {
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.advanced_blocks_user_register.sign_up.wide_body .user_register_footer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.advanced_blocks_user_register.sign_up.wide_body 
+ .advanced_blocks_checkbox label::before {
+    border: 1px solid #e6e6e6;
+    background: transparent;
+    border-radius: 0;
+}
+
+.advanced_blocks_user_register.sign_up.wide_body .advanced_blocks_checkbox {
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.advanced_blocks_user_register.sign_up.wide_body .advanced_blocks_checkbox {
+    color: #5a5867;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.advanced_blocks_user_register.sign_up.wide_body .advanced_blocks_checkbox label {
+    color: #5a5867;
+}
+
+.advanced_blocks_user_register.sign_up.wide_body .register_footer_right .user_register_text {
+    font-size: 16px;
+    color: #5a5867;
+    font-weight: 300;
+}
+
+.advanced_blocks_user_register.sign_up.wide_body .user_register_footer {
+    padding-top: 20px;
+}
+/*  */
+
+/*  */
+
+.advanced_blocks_user_register.full_bg.sign_up {
+    text-align: center;
+}
+
+.advanced_blocks_user_register.full_bg.sign_up .advanced_blocks_field_group {
+    display: flex;
+}
+
+.advanced_blocks_user_register.full_bg.sign_up {
+    padding: 55px 55px 55px 55px;
+    position: relative;
+    overflow: hidden;
+}
+
+.advanced_blocks_user_register.full_bg.sign_up .advanced_blocks_field_group label {
+    display: inline-flex;
+    width: 60px;
+    height: 65px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    background: rgba(220,221,231,.40);
+    margin-right: 5px;
+    border-radius: 8px 0 0 8px;
+    color: #ffffff;
+}
+
+.advanced_blocks_user_register.full_bg.sign_up .advanced_blocks_field_group  .advanced_blocks_field {
+    height: 65px;
+    line-height: 65px;
+    background: rgba(220,221,231,.40);
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.advanced_blocks_user_register.full_bg.sign_up .advanced_blocks_field_group  .advanced_blocks_field::-webkit-input-placeholder { /* Edge */
+  color: #ffffff;
+}
+
+.advanced_blocks_user_register.full_bg.sign_up .advanced_blocks_field_group  .advanced_blocks_field:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ffffff;
+}
+
+.advanced_blocks_user_register.full_bg.sign_up .advanced_blocks_field_group  .advanced_blocks_field::placeholder {
+  color: #ffffff;
+}
+
+.advanced_blocks_user_register.full_bg.sign_up .user_register_text {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 300;
+    display: inline-flex;
+    position: relative;
+    line-height: 80px;
+}
+
+.advanced_blocks_user_register.full_bg.sign_up .user_register_header {
+    padding-bottom: 40px;
+    position: relative;
+    z-index: 9;
+}
+
+.advanced_blocks_user_register.full_bg.sign_up .user_register_header h4 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+.advanced_blocks_user_register.full_bg.sign_up .user_register_header p {
+    font-size: 18px;
+}
+
+.advanced_blocks_user_register.full_bg.sign_up .user_register_footer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    position: relative;
+    z-index: 9;
+}
+
+.advanced_blocks_user_register.full_bg.sign_up .user_register_body {
+    position: relative;
+    z-index: 9;
+}
+
+.advanced_blocks_user_register.full_bg.sign_up .user_register_body .advanced_blocks_btn {
+    text-transform: uppercase;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.40);
+    font-size: 22px;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 0 50px;
+}
+
+.advanced_blocks_user_register.full_bg.sign_up .user_register_text::before,.advanced_blocks_user_register.full_bg.sign_up .user_register_text::after {content: "";position: absolute;right: calc(100% + 10px);height: 3px;width: 100px;background: rgba(255,255,255,.40);top: 50%;transform: translateY(-50%);}
+
+.advanced_blocks_user_register.full_bg.sign_up .user_register_text::after {
+    left: calc(100% + 10px);
+}
+
+.advanced_blocks_user_register.full_bg.sign_up .user_register_footer .advanced_blocks_btn {
+    background: rgba(255,255,255,.40);
+    padding: 0 100px;
+    border-radius: 8px;
+    height: 50px;
+}
+
+.advanced_blocks_user_register.full_bg.sign_up .user_register_footer .advanced_blocks_btn:hover {
+    box-shadow: none;
+    color: #ffffff;
+    background: rgba(255,255,255,.50);
+}
+.advanced_blocks_user_register.full_bg.sign_up .overlay{
+	position: absolute;
+	left: -3px;
+	top: -3px;
+	height: calc(100% + 6px);
+	width: calc(100% + 5px);
+	filter: blur(2px);
+	transition: all .30s linear;
+	background-color: transparent;
+}
+/*.advanced_blocks_user_register.full_bg.sign_up::before {
+	content: "";
+	
+	background-image: url(assets/images/user-register/signup-bg-2.jpg);
+	background-position: center center;background-size: cover;
+	background-repeat: no-repeat;
+	
+}*/
+
+.advanced_blocks_user_register.full_bg.sign_up .advanced_blocks_field_group:hover .advanced_blocks_field,.advanced_blocks_user_register.full_bg.sign_up .advanced_blocks_field_group:hover label {
+    box-shadow: 0px 0px 0px 1px rgba(255,255,255,.80);
+}
+
+.advanced_blocks_user_register.full_bg.sign_up:hover .overlay {transform: scale(1.03);}
+/*  */
+
+/*  */
+
+.advanced_blocks_register_container.with_image .advanced_blocks_user_register.with_image {
+    flex: 0 0 50%;
+    box-shadow: none;
+    background: #ffffff;
+    padding: 20px 20px 20px 20px;
+}
+
+.advanced_blocks_register_container.with_image {
+    display: flex;
+}
+
+.advanced_blocks_register_container.with_image .register_blocks_left {max-width: 50%;flex: 0 0 50%;display: flex;align-items: center;justify-content: center;flex-flow: column;padding: 0 80px;text-align: center;position: relative;}
+
+.advanced_blocks_register_container.with_image .register_blocks_left h2 {
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 90px;
+    position: relative;
+    z-index: 9;
+}
+
+.advanced_blocks_register_container.with_image .register_blocks_left p {
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 300;
+    position: relative;
+    z-index: 9;
+}
+
+.advanced_blocks_register_container.with_image .register_blocks_left::before {content: "";position: absolute;left: 0;top: 0;width: 100%;height: 100%;background: rgba(2,24,2,.45);}
+
+.advanced_blocks_register_container.with_image .advanced_blocks_user_register.with_image .user_register_header {
+    background: #ffffff;
+    padding: 35px 40px 0px 40px;
+    text-align: left;
+}
+
+.advanced_blocks_register_container.with_image .advanced_blocks_user_register.with_image .user_register_header h4 {
+    color: #0fce0a;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.advanced_blocks_user_register.default.with_image .user_register_body {
+    padding: 31px 40px 9px 40px;
+}
+
+.advanced_blocks_register_container.with_image .advanced_blocks_user_register.with_image .user_register_header p {
+    font-size: 16px;
+    color: #525460;
+}
+
+.advanced_blocks_register_container.with_image .advanced_blocks_user_register.with_image .user_register_header::before {
+    display: none;
+}
+.advanced_blocks_register_container.with_image .advanced_blocks_user_register.with_image .advanced_blocks_checkbox {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.advanced_blocks_register_container.with_image .advanced_blocks_user_register.with_image .advanced_blocks_field {
+    background: #f4f5f8;
+    border: none;
+    border-radius: 6px;
+}
+/*  */
+
+/*  */
+/*  */
