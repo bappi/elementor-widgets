@@ -144,11 +144,13 @@
     //Set background image for WordPress
     jQuery(".set-bg").each(function() {
         var thesrc = jQuery(this).attr('data-bg');
-        jQuery(this).css("background-image", "url(" + thesrc + ")");
-        jQuery(this).css("background-position", "center");
-        jQuery(this).css("background-size", "cover");
-        jQuery(this).css("background-repeat", "no-repeat");
-        jQuery(this).removeAttr('data-bg');
+       if(thesrc){
+             jQuery(this).css("background-image", "url(" + thesrc + ")");
+            jQuery(this).css("background-position", "center");
+            jQuery(this).css("background-size", "cover");
+            jQuery(this).css("background-repeat", "no-repeat");
+            jQuery(this).removeAttr('data-bg');
+       }
 
     });
 
@@ -364,7 +366,6 @@
 
     jQuery("[data-color]").each(function(index, el) {
         let atvalue =  jQuery(this).attr('data-color');
-        console.log('#' + atvalue)
         jQuery(this).css({
             'background' : '#' + atvalue
         });
