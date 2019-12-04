@@ -1,6 +1,19 @@
 /*  */
 
+
+@font-face {
+  font-family: 'Harrington';
+  src: url('Harrington.eot?#iefix') format('embedded-opentype'),  
+  url('../fonts/Harrington.woff') format('woff'), 
+  url('../fonts/Harrington.ttf')  format('truetype'), 
+  url('../fonts/Harrington.svg#Harrington') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .advanced_blocks_heading_content.creative_heading {
+
     padding-right: 50px;
     height: 100%;
     display: flex;
@@ -54,16 +67,203 @@
     position: relative;
 }
 
-.advanced_blcoks_heading_image.creative_heading::before {content: "";position: absolute;height: 285px;width: 285px;border: 23px solid rgba(73,60,177,.85);top: 50%;transform: translateY(-50%);left: -100px;}
+.advanced_blcoks_heading_image.creative_heading::before {
+    content: "";
+    position: absolute;
+    height: 285px;
+    width: 285px;
+    border: 23px solid rgba(73,60,177,.85);
+    top: 50%;
+    transform: translateY(-50%);
+    left: -100px;
+}
 /*  */
 
 /*  */
+
+.advanced_blocks_heading_content.double_bar .advanced_blocks_heading_text {
+    font-weight: 300;
+    color: #4b4c80;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 0 35px 0 0;
+}
+
+.advanced_blocks_heading_content.double_bar .advanced_blcoks_heading_link {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: #ff7b35;
+}
+
+.advanced_blocks_heading_content.double_bar .advanced_blocks_heading_title {
+    font-size: 160px;
+    color: #e8f9f4;
+    position: relative;
+    line-height: 120px;
+    display: inline-block;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.advanced_blocks_heading_content.double_bar .blocks_heading_head {
+    text-align: center;
+    padding-bottom: 42px;
+}
+
+.advanced_blocks_heading_content.double_bar .advanced_blocks_heading_title .advanced_blcoks_heading_subtitle {
+    font-size: 28px;
+    color: #5b8ac1;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: absolute;
+    line-height: 35px;
+    display: flex;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.advanced_blocks_heading_content.double_bar .advanced_blocks_heading_title::before {content: "";position: absolute;left: 80px;width: 5px;height: 115px;background: #6fe9c5;}
+
+.advanced_blocks_heading_content.double_bar .advanced_blocks_heading_title::before,.advanced_blocks_heading_content.double_bar .advanced_blocks_heading_title::after {content: "";position: absolute;left: 80px;height: 115px;width: 5px;background: #6fe9c5;display: block;top: 50%;transform: translateY(-50%);}
+
+
+
+.advanced_blocks_heading_content.double_bar .advanced_blocks_heading_title::after {
+    right: 80px;
+    left: initial;
+}
+
+.advanced_blocks_heading_content.double_bar .advanced_blcoks_heading_link i {
+    font-size: 12px;
+}
 /*  */
 
 /*  */
+
+.advanced_blocks_heading_content.fancy_heading .blocks_heading_body {
+    padding-top: 40px;
+}
+
+.advanced_blocks_heading_content.fancy_heading {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.advanced_blocks_heading_content.fancy_heading .advanced_blocks_heading_text {
+    font-size: 32px;
+    line-height: 36px;
+    font-family: 'Allura', cursive;
+}
+
+.advanced_blocks_heading_content.fancy_heading .advanced_blcoks_heading_subtitle {
+    position: absolute;
+    font-size: 20px;
+    color: #232644;
+    font-weight: 400;
+    left: 124px;
+    top: -23px;
+    text-transform: capitalize;
+}
+
+.advanced_blocks_heading_content.fancy_heading .advanced_blocks_heading_title {
+    font-size: 75px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 70px;
+    position: relative;
+}
+
+.advanced_blocks_heading_content.fancy_heading .advanced_blocks_heading_title::first-letter {
+    font-size: 180px;
+    color: #fb7387;
+    font-family: 'Harrington';
+}
+
+.advanced_blcoks_heading_image.fancy_heading img {
+    max-width: 100%;
+}
+
+.advanced_blocks_heading_content.life_style_heading {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.advanced_blocks_heading_content.life_style_heading .blocks_heading_body {
+    padding-top: 30px;
+}
+
+.advanced_blocks_heading_content.life_style_heading .advanced_blocks_heading_text {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+.advanced_blocks_heading_content.life_style_heading {
+    text-align: right;
+}
+
+.advanced_blocks_heading_content.life_style_heading .advanced_blcoks_heading_subtitle {
+    font-size: 30px;
+    font-weight: 600;
+    display: block;
+    text-transform: capitalize;
+}
+
+.advanced_blocks_heading_content.life_style_heading .advanced_blocks_heading_title {
+    font-size: 70px;
+    text-transform: uppercase;
+    line-height: 50px;
+    position: relative;
+}
+
+.advanced_blocks_heading_content.life_style_heading .advanced_blocks_heading_title::after {content: "";position: absolute;right: 0;bottom: 9px;width: 264px;height: 62px;border: 20px solid #eaf5ff;border-radius: 30px;background: transparent;z-index: -1;}
 /*  */
 
 /*  */
+
+.advanced_blocks_heading_content.simple_heading .advanced_blocks_heading_text {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    text-align: center;
+}
+
+.advanced_blocks_heading_content.simple_heading .advanced_blcoks_heading_subtitle {
+    font-size: 23px;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    padding: 8px 30px 8px 30px;
+    margin-bottom: 45px;
+
+}
+
+.advanced_blocks_heading_content.simple_heading .blocks_heading_head {
+    text-align: center;
+}
+
+.advanced_blocks_heading_content.simple_heading .blocks_heading_head .advanced_blocks_heading_title {
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.advanced_blocks_heading_content.simple_heading .advanced_blcoks_heading_subtitle::before,.advanced_blocks_heading_content.simple_heading .advanced_blcoks_heading_subtitle::after {content: "";position: absolute;left: 0;top: 0;width: 100%;height: 1px;background: #e2f2fa;}
+
+.advanced_blocks_heading_content.simple_heading .advanced_blcoks_heading_subtitle::after {
+    bottom: 0;
+    top: initial;
+}
 /*  */
 
 /*  */
