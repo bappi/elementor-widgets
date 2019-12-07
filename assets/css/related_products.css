@@ -1,0 +1,268 @@
+*/
+.advanced_blocks_product_slider.default .slick-slide{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.advanced_blocks_single_product.default .product_image img{
+	max-width: 100%;
+}
+.advanced_blocks_single_product.default .product_image{
+	position: relative;
+}
+.advanced_blocks_single_product.default .product_cart{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.advanced_blocks_single_product.default{
+	background: #f8f8fb;
+	transition: all .30s linear;
+}
+.advanced_blocks_single_product.default .product_content {
+    padding: 25px 20px 20px 25px;
+    position: relative;
+}
+.advanced_blocks_single_product.default .product_content .product_title {
+    font-size: 20px;
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.advanced_blocks_single_product.default .product_content .product_tag {
+    font-size: 16px;
+    color: #8e8e8e;
+    font-weight: 400;
+    padding-left: 15px;
+    border-left: 1px solid #e7e7e7;
+}
+
+.advanced_blocks_single_product.default .product_cart .cart_icon, 
+.advanced_blocks_single_product.default .product_cart .wishlist_icon {
+    display: inline-block;
+    font-size: 15px;
+    padding: 6px 18px;
+    border-radius: 22.5px;
+}
+
+.advanced_blocks_single_product.default:hover {
+    box-shadow: 0 10px 30px rgba(64,81,152,.20);
+    background: #ffffff;
+    border-radius: 0 0 6px 6px; 
+}
+
+.advanced_blocks_single_product.default .product_price {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 0;
+    line-height: 30px;
+}
+
+.advanced_blocks_single_product.default .product_cart {
+    background: rgba(255,255,255,.80);
+    border-radius: 32.5px;
+    padding: 10px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(.95);
+    opacity: 0;
+    transition: all .30s linear;
+}
+
+.advanced_blocks_single_product.default .product_cart .cart_icon {
+    background: #1ee3cf;
+    color: #ffffff;
+    margin-right: 8px;
+}
+
+.advanced_blocks_single_product.default .product_cart .wishlist_icon {
+    color: #ff5b5b;
+    background: #ffffff;
+    box-shadow: 0px 10px 10px rgba(255,118,118,.40);
+}
+
+.advanced_blocks_single_product.default .product_image::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: rgba(30,227,207,.60);
+	height: 6px;
+}
+
+.advanced_blocks_single_product.default:hover .product_cart {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(-50%,-50%) scale(1);
+}
+.advanced_blocks_product_slider.default .slick-list{
+	padding-bottom: 40px;
+}
+.advanced_blocks_product_slider.default{
+	position: relative;
+	padding-top: 50px;
+}
+.advanced_blocks_product_slider.default .slick-arrow{
+	position: absolute;
+	right: 0;
+    top: -20px;
+	height: 22px;
+	width: 22px;
+	border-radius: 50%;
+	background: #d8d9e0;
+	color: #fff;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 14px;
+	border: 0;
+	transition: all .30s linear;
+}
+.advanced_blocks_product_slider.default .slick-arrow:hover{
+	background: #ff8022;
+}
+.advanced_blocks_product_slider.default .slick-prev{
+	right: 115px;
+}
+.advanced_blocks_product_slider.default .slick-next{
+	right: 30px;
+}
+
+/* TItle css */
+.related_products_title.default {
+    font-weight: 300;
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 0;
+    line-height: 32px;
+}
+/**/
+
+/**/
+.advanced_blocks_slider.advanced_blocks_product_slider.default.with_overlay {
+    background: transparent;
+}
+
+.advanced_blocks_single_product.default.with_overlay:hover .product_price {
+    color: #df7d32 !important;
+}
+
+.advanced_blocks_single_product.default.with_overlay .product_image::before {
+    display: none;
+}
+
+.advanced_blocks_single_product.default.with_overlay .product_content {
+    background: #ffffff;
+    position: relative;
+}
+
+.advanced_blocks_single_product.default.with_overlay {
+    background: transparent;
+}
+.advanced_blocks_slider.advanced_blocks_product_slider.default.with_overlay .slick-slide {
+    padding: 0 15px;
+}
+
+.advanced_blocks_single_product.default.with_overlay .product_content::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 100%;
+	width: 50%;
+	border-left: 331px solid #ffffff;
+	border-top: 25px solid transparent;
+	transition: all .20s linear;
+	z-index: 9;
+
+}
+
+.advanced_blocks_single_product.default.with_overlay .product_image img {
+    max-width: 100%;
+}
+
+.advanced_blocks_single_product.default.with_overlay .product_cart {
+    width: 240px;
+    display: flex;
+    background: rgba(255,255,255,.90);
+    justify-content: space-between;
+}
+
+.advanced_blocks_single_product.default.with_overlay .product_cart .cart_icon {
+    background: transparent;
+    color: #5c5c5c;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.advanced_blocks_single_product.default.with_overlay .product_cart .wishlist_icon {
+    background: #df7d32;
+    box-shadow: none;
+    color: #ffffff;
+    padding: 6px 22px;
+    font-size: 18px;
+}
+
+.advanced_blocks_single_product.default.with_overlay .product_cart .cart_icon i {
+    font-size: 18px;
+    display: inline-block;
+    padding-left: 8px;
+}
+
+.advanced_blocks_single_product.default.with_overlay .product_content::after {
+	content: "";
+	position: absolute;
+	right: 0;
+	bottom: calc(100% - 10px);
+	border-right: 284px solid transparent;
+	border-bottom: 22px solid transparent;
+	transition: all .40s linear;
+	opacity: 0;
+	z-index: 0;
+}
+
+.advanced_blocks_single_product.default.with_overlay:hover .product_content {
+    background: #405198;
+}
+
+.advanced_blocks_single_product.default.with_overlay:hover .product_content::before {
+    border-left: 331px solid #405198;
+}
+.advanced_blocks_single_product.default.with_overlay:hover .product_content::after{
+	border-right: 284px solid #df9054;
+	opacity: 1;
+	bottom: calc(100% - 2px);
+}
+.advanced_blocks_single_product.default.with_overlay:hover .product_content .product_title {
+    color: #ffffff;
+}
+
+.advanced_blocks_single_product.default.with_overlay:hover .product_tag {
+    color: #ffffff;
+}
+/**/
+
+/**/
+/**/
+
+/**/
+/**/
+
+/**/
+/**/
+
+/**/
+/**/
+
+
+/**/
+/**/
+
+/**/
+/*
