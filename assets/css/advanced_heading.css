@@ -77,6 +77,9 @@
     transform: translateY(-50%);
     left: -100px;
 }
+.advanced_blcoks_heading_image.creative_heading img {
+    max-width: 100%;
+}
 /*  */
 
 /*  */
@@ -267,7 +270,325 @@
 /*  */
 
 /*  */
+
+.advanced_blocks_heading_content.bridal_heading .blocks_heading_head img {
+    margin-bottom: 20px;
+}
+.advanced_blocks_heading_content.bridal_heading .advanced_blcoks_heading_subtitle {
+    position: absolute;
+    text-transform: lowercase;
+    left: 50%;
+    bottom: -33px;
+    transform: translateX(-50%);
+    font-family: 'Pinyon Script', cursive;
+    z-index: 0;
+}
+
+.advanced_blocks_heading_content.bridal_heading .advanced_blocks_heading_text {
+    font-size: 20px;
+    line-height: 36px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.advanced_blocks_heading_content.bridal_heading .advanced_blocks_heading_title {
+    font-size: 80px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    line-height: 80px;
+    margin-bottom: 30px;
+    font-family: 'Libre Baskerville', serif;
+    z-index: 9;
+}
+
+.advanced_blocks_heading_content.bridal_heading .advanced_blcoks_heading_link {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 18px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.advanced_blocks_heading_content.bridal_heading {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.advanced_blcoks_heading_image.bridal_heading img {
+    max-width: 100%;
+}
 /*  */
 
 /*  */
 /*  */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .advanced_blocks_heading_content.double_bar .advanced_blocks_heading_title {
+        font-size: 130px;
+        line-height: 100px;
+    }
+    .advanced_blocks_heading_content.double_bar .advanced_blocks_heading_title .advanced_blcoks_heading_subtitle {
+        font-size: 22px;
+    }
+    .advanced_blocks_heading_content.double_bar .advanced_blocks_heading_text {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .advanced_blocks_heading_content.fancy_heading .advanced_blocks_heading_title {
+        font-size: 56px;
+    }
+    .advanced_blocks_heading_content.fancy_heading .advanced_blocks_heading_title::first-letter {
+        font-size: 100px;
+    }
+    .advanced_blocks_heading_content.fancy_heading .advanced_blcoks_heading_subtitle {
+        font-size: 15px;
+        left: 75px;
+    }
+    .advanced_blocks_heading_content.fancy_heading .blocks_heading_body {
+        padding-top: 20px;
+    }
+    .advanced_blocks_heading_content.fancy_heading .advanced_blocks_heading_text {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .advanced_blcoks_heading_image.life_style_heading img {
+        max-width: 100%;
+    }
+    .advanced_blocks_heading_content.life_style_heading .blocks_heading_body {
+        padding-top: 15px;
+    }
+    .advanced_blocks_heading_content.life_style_heading .advanced_blocks_heading_title {
+        font-size: 60px;
+        line-height: 50px;
+    }
+    .advanced_blocks_heading_content.life_style_heading .advanced_blocks_heading_text {
+        font-size: 18px;
+        line-height: 29px;
+    }
+    .advanced_blocks_heading_content.simple_heading .blocks_heading_head .advanced_blocks_heading_title {
+        font-size: 50px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    .advanced_blocks_heading_content.simple_heading .advanced_blcoks_heading_subtitle {
+        font-size: 18px;
+        padding: 8px 30px 8px 30px;
+        margin-bottom: 40px;
+    }
+    .advanced_blocks_heading_content.simple_heading .advanced_blocks_heading_text {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .advanced_blocks_heading_content.bridal_heading .advanced_blocks_heading_title {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .advanced_blocks_heading_content.bridal_heading .advanced_blocks_heading_text {
+        font-size: 15px;
+        line-height: 26px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .advanced_blocks_heading_content.creative_heading .advanced_blocks_heading_title {
+        font-size: 100px;
+        line-height: 90px;
+        margin-bottom: 15px;
+    }
+    .advanced_blcoks_heading_image.creative_heading::before {
+        content: "";
+        height: 200px;
+        width: 200px;
+        border: 15px solid rgba(73,60,177,.85);
+    }
+    .advanced_blocks_heading_content.creative_heading .advanced_blocks_heading_text {
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 0;
+        margin-top: 25px;
+    }
+    .advanced_blocks_heading_content.creative_heading {
+        padding-right: 90px;
+    }
+
+     .advanced_blocks_heading_content.double_bar .advanced_blocks_heading_title {
+        font-size: 130px;
+        line-height: 100px;
+    }
+    .advanced_blocks_heading_content.double_bar .advanced_blocks_heading_title .advanced_blcoks_heading_subtitle {
+        font-size: 22px;
+    }
+    .advanced_blocks_heading_content.double_bar .advanced_blocks_heading_text {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+   .advanced_blocks_heading_content.fancy_heading .advanced_blocks_heading_title {
+        font-size: 40px;
+    }
+    .advanced_blocks_heading_content.fancy_heading .advanced_blocks_heading_title::first-letter {
+        font-size: 80px;
+    }
+    .advanced_blocks_heading_content.fancy_heading .advanced_blcoks_heading_subtitle {
+        font-size: 15px;
+        left: 75px;
+    }
+    .advanced_blocks_heading_content.fancy_heading .blocks_heading_body {
+        padding-top: 20px;
+    }
+    .advanced_blocks_heading_content.fancy_heading .advanced_blocks_heading_text {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .advanced_blcoks_heading_image.life_style_heading img {
+        max-width: 100%;
+    }
+    .advanced_blocks_heading_content.life_style_heading .advanced_blocks_heading_title {
+        font-size: 50px;
+        line-height: 40px;
+    }
+    .advanced_blocks_heading_content.life_style_heading .advanced_blocks_heading_text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .advanced_blocks_heading_content.life_style_heading .blocks_heading_body {
+        padding-top: 15px;
+    }
+    .advanced_blocks_heading_content.simple_heading .blocks_heading_head .advanced_blocks_heading_title {
+        font-size: 40px;
+        line-height: 30px;
+        margin-bottom: 16px;
+    }
+    .advanced_blocks_heading_content.simple_heading .advanced_blcoks_heading_subtitle {
+        font-size: 18px;
+        padding: 5px 30px 5px 30px;
+        margin-bottom: 20px;
+    }
+    .advanced_blocks_heading_content.simple_heading .advanced_blocks_heading_text {
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .advanced_blocks_heading_content.bridal_heading .advanced_blocks_heading_title {
+        font-size: 50px;
+        line-height: 60px;
+        margin-bottom: 30px;
+    }
+    .advanced_blocks_heading_content.bridal_heading .advanced_blocks_heading_text {
+        font-size: 14px;
+        line-height: 28px;
+    }
+}
+
+@media  (max-width: 767px) {
+    .advanced_blocks_heading_content.creative_heading .advanced_blocks_heading_title {
+        font-size: 74px;
+        line-height: 114px;
+        margin-bottom: 20px;
+    }
+    .advanced_blocks_heading_content.creative_heading .advanced_blcoks_heading_subtitle {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .advanced_blocks_heading_content.creative_heading .advanced_blocks_heading_text {
+        font-size: 15px;
+        line-height: 26px;
+        margin-top: 25px;
+    }
+    .advanced_blcoks_heading_image.creative_heading::before {
+        height: 150px;
+        width: 150px;
+        border: 15px solid rgba(73,60,177,.85);
+        left: -46px;
+    }
+    .advanced_blocks_heading_content.double_bar .advanced_blocks_heading_title {
+        font-size: 96px;
+        line-height: 90px;
+        margin-bottom: 10px;
+    }
+    .advanced_blocks_heading_content.double_bar .advanced_blocks_heading_title .advanced_blcoks_heading_subtitle {
+        font-size: 15px;
+    }
+    .advanced_blocks_heading_content.double_bar .advanced_blocks_heading_title::before, 
+    .advanced_blocks_heading_content.double_bar .advanced_blocks_heading_title::after {
+        left: 80px;
+        height: 70px;
+    }
+    .advanced_blocks_heading_content.double_bar .blocks_heading_head {
+        padding-bottom: 25px;
+    }
+    .advanced_blocks_heading_content.double_bar .advanced_blocks_heading_text {
+        font-size: 18px;
+        line-height: 30px;
+        padding: 0 30px 0 0;
+    }
+    .advanced_blocks_heading_content.fancy_heading .advanced_blocks_heading_title {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .advanced_blocks_heading_content.fancy_heading .advanced_blocks_heading_title::first-letter {
+        font-size: 90px;
+    }
+    .advanced_blocks_heading_content.fancy_heading .advanced_blcoks_heading_subtitle {
+        font-size: 20px;
+        left: 65px;
+        top: -29px;
+    }
+    .advanced_blocks_heading_content.fancy_heading .advanced_blocks_heading_text {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    .advanced_blocks_heading_content.fancy_heading .blocks_heading_body {
+        padding-top: 15px;
+    }
+    .advanced_blcoks_heading_image.life_style_heading img {
+        max-width: 100%;
+    }
+    .advanced_blcoks_heading_image.life_style_heading {
+        padding-bottom: 30px;
+    }
+    .advanced_blocks_heading_content.life_style_heading .advanced_blocks_heading_title {
+        font-size: 48px;
+        line-height: 40px;
+    }
+    .advanced_blocks_heading_content.life_style_heading .advanced_blcoks_heading_subtitle {
+        font-size: 24px;
+    }
+    .advanced_blocks_heading_content.life_style_heading .advanced_blocks_heading_text {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .advanced_blocks_heading_content.life_style_heading .blocks_heading_body {
+        padding-top: 10px;
+    }
+    .advanced_blocks_heading_content.simple_heading .blocks_heading_head .advanced_blocks_heading_title {
+        font-size: 36px;
+        line-height: 36px;
+        margin-bottom: 12px;
+    }
+    .advanced_blocks_heading_content.simple_heading .advanced_blcoks_heading_subtitle {
+        font-size: 15px;
+        padding: 6px 30px 6px 30px;
+        margin-bottom: 30px;
+    }
+    .advanced_blocks_heading_content.simple_heading .advanced_blocks_heading_text {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 28px;
+    }
+    .advanced_blocks_heading_content.bridal_heading .advanced_blocks_heading_title {
+        font-size: 36px;
+        line-height: 55px;
+    }
+    .advanced_blocks_heading_content.bridal_heading .advanced_blcoks_heading_link {
+        font-size: 13px;
+        line-height: 22px;
+        margin-bottom: 6px;
+    }
+    .advanced_blocks_heading_content.bridal_heading .advanced_blocks_heading_text {
+        font-size: 14px;
+        line-height: 30px;
+    }
+}

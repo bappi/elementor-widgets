@@ -82,19 +82,32 @@
     left: 50%;
     transform: translateX(-50%);
 }
-.advanced_blocks_pricing_tbl.type-1.featured::before {
-    content: "featured";
-    text-transform: uppercase;
-    background: #2f2f2f;
-    color: #dddddd;
-    line-height: 33px;
-    display: inline-block;
-    padding: 0 40px;
+.advanced_blocks_pricing_tbl.type-1.featured .advanced_blocks_pricing_ribbon {
+    width: 15em;
+    overflow: hidden;
+    height: 15em;
     position: absolute;
-    bottom: 17px;
-    right: -35px;
-    transform: rotate(-43deg);
-    font-size: 14px;
+}
+.advanced_blocks_pricing_tbl.type-1.featured .advanced_blocks_pricing_ribbon.ribbon_right{
+    transform: rotate(90deg);
+    left: auto;
+    right: 0;
+    top: 0;
+}
+.advanced_blocks_pricing_tbl.type-1.featured .advanced_blocks_pricing_ribbon_content{
+    text-align: center;
+    left: 0;
+    width: 150%;
+    -webkit-transform: translateY(-50%) translateX(-50%) translateX(35px) rotate(-45deg);
+    -ms-transform: translateY(-50%) translateX(-50%) translateX(35px) rotate(-45deg);
+    transform: translateY(-50%) translateX(-50%) translateX(35px) rotate(-45deg);
+    margin-top: 35px;
+    font-size: 13px;
+    line-height: 2;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: #000;
+    color: #fff;
 }
 /*-----------------------------------------
     //End Prcing Table Type-2
