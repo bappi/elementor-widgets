@@ -16,7 +16,6 @@
     };
 
     function responsiveOptions(slidesToShow){
-        console.log('sdsd',parseInt(slidesToShow[0]))
         return [
             {
               breakpoint: 1024,
@@ -39,13 +38,13 @@
             {
               breakpoint: 600,
               settings: {
-                slidesToShow: slidesToShow ? parseInt(slidesToShow[1]) : slidesToShow[1],
+                slidesToShow: slidesToShow ? parseInt(slidesToShow[2]) : slidesToShow[1],
               }
             },
             {
               breakpoint: 480,
               settings: {
-                slidesToShow: slidesToShow ? parseInt(slidesToShow[2]) : parseInt(slidesToShow[2]),
+                slidesToShow: slidesToShow ? parseInt(slidesToShow[3]) : parseInt(slidesToShow[2]),
               }
             }
       ]
@@ -69,7 +68,6 @@
         }
         if(jQuery(this).hasAttr('arrows')){
             arrows = jQuery(this).attr('arrows');
-            console.log('arrya is ',  arrows);
         }
         if(jQuery(this).hasAttr('slidesToShow')){
             slidesToShow = jQuery(this).attr('slidesToShow');
@@ -318,7 +316,7 @@
     jQuery(document).ready(function(){
       
       // Countdown
-    $('.kounty-countdown').kounty();
+       $('.kounty-countdown').length ?$('.kounty-countdown').kounty() : null;
 
         jQuery('.advanced_radius_progressbar').each(function(index, el) {
             var jQuerythis = jQuery(this);

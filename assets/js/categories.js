@@ -6,3 +6,6 @@ $(window).on('load',function(){
 
 });
 
+let name = 'packery';
+console.log(name);
+
