@@ -696,15 +696,12 @@
 									<input type="text" placeholder="Coupon Code" class="cupon_code">
 								    <button class="advanced_blocks_btn apply_cupon_btn">Apply Coupon</button>
 								</div>
-								<div class="col-md-6 text-right ">
-									<button class="advanced_blocks_btn  update_cart">Update Cart</button>
-								</div>
 							</div>
 						</form>
 						<div class="row">
 							<!--  -->
 							<div class="col-md-12">
-								<div class="advanced_block_total default horizontal white stripped">
+								<div class="advanced_block_total default horizontal white stripped payment_method ">
 									<div class="proceed_checkout">
 										<ul class="list-style-none pl-0">
 											<li>
@@ -729,7 +726,7 @@
 							</div>
 							<!--  -->
 							<div class="col-md-12">
-								<div class="checkout_proceed">
+								<div class="checkout_proceed payment_method stripped">
 									<button class="advanced_blocks_btn">
 										Proceed To Checkout
 									</button>
@@ -737,14 +734,14 @@
 								</div>
 							</div>
 							<div class="col-md-12">
-								<div class="payment_methods">
-									<a href="#">
+								<div class="payment_options payment_method stripped">
+									<a href="#" data-color="ffc43a">
 										<img src="assets/images/payment/paypal.png" alt="Failed to load">
 									</a>
-									<a href="#">
+									<a href="#" data-color="029dde">
 										<img src="assets/images/payment/vimeo.png" alt="Failed to load">
 									</a>
-									<a href="#">
+									<a href="#" data-color="003187">
 										<img src="assets/images/payment/paypal-credit.png" alt="Failed to load">
 									</a>
 								</div>
@@ -758,6 +755,141 @@
 	<!--  -->
 
 	<!--  -->
+	<div class="pt-100 pb-100" data-color='ffffff'>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 offset-md-1">
+					<div class="advanced_blcok_woocommerce_cart default horizontal white stripped payment_method vertical">
+						<form action="#">
+							<div class="table-responsive">
+								  <table class="table advanced_blocks_cart_table stripped   advaced_blocks_table vertical">
+								  	<thead>
+								   			<tr>
+								   				<th class="advance_block_product_remove"></th>
+								   				<th class="advanced_block_product_thumbnail"></th>
+								   				<th class="advanced_blcoks_product_name">Product</th>
+								   				<th class="advanced_blcoks_product_price">Price</th>
+								   				<th class="advanced_blcoks_product_quantity">Quantity</th>
+								   				<th class="advanced_blcoks_product_subtotal">Total</th>
+								   			</tr>
+								   		</thead>
+								   		<tbody>
+								   			<tr class="advanced_blocks_cart_row">
+								   				<td class="advance_block_product_remove">
+								   					<i class="fas fa-times"></i>
+								   				</td>
+								   				<td class="advanced_block_product_thumbnail">
+								   					<img src="assets/images/checkout/checkout_img01.jpg" alt="Failed to load">
+								   				</td>
+								   				<td class="advanced_blcoks_product_name">Black Headphone</td>
+								   				<td class="advanced_blcoks_product_price">$44.00</td>
+								   				<td class="advanced_blcoks_product_quantity">
+								   					<div class="quantity">
+								   						<span class="plus">
+								   							<i class="icon-arrows_up"></i>
+								   						</span>
+								   						<input type="number" class="display" value="0">
+								   						<span class="minus">
+								   							<i class="icon-arrows_down"></i>
+								   						</span>
+								   						
+								   					</div>
+								   				
+								   				</td><td class="advanced_blcoks_product_subtotal">$44.00</td>
+								   			</tr>
+								   			<tr class="advanced_blocks_cart_row">
+								   				<td class="advance_block_product_remove">
+								   					<i class="fas fa-times"></i>
+								   				</td>
+								   				<td class="advanced_block_product_thumbnail">
+								   					<img src="assets/images/checkout/checkout_img01.jpg" alt="Failed to load">
+								   				</td>
+								   				<td class="advanced_blcoks_product_name">Black Headphone</td>
+								   				<td class="advanced_blcoks_product_price">$44.00</td>
+								   				<td class="advanced_blcoks_product_quantity">
+								   					<div class="quantity">
+								   						<span class="plus">
+								   							<i class="icon-arrows_up"></i>
+								   						</span>
+								   						<input type="number" class="display" value="0">
+								   						<span class="minus">
+								   							<i class="icon-arrows_down"></i>
+								   						</span>
+								   					</div>
+								   				</td>
+								   				<td class="advanced_blcoks_product_subtotal">$44.00</td>
+								   			</tr>
+								   		</tbody>
+								  </table>
+							</div>
+							<div class="row advanced_block_cart_action no-gutters">
+								<div class="col-md-6">
+									<input type="text" placeholder="Coupon Code" class="cupon_code">
+								    <button class="advanced_blocks_btn apply_cupon_btn">Apply Coupon</button>
+								</div>
+							</div>
+						</form>
+						<div class="row">
+							<div class="col-md-4 offset-md-8">
+								<div class="total_cart">
+    <h4>Cart Total</h4>
+									<div class="row">
+									<!--  -->
+								<div class="col-md-12">
+									<div class="advanced_block_total default horizontal white stripped payment_method vertical">
+										<div class="proceed_checkout">
+											<ul class="list-style-none pl-0">
+												<li>
+													<span class="checkout_title">
+														Sub Total
+													</span>
+													<span class="checkout_value">
+														$88
+													</span>
+												</li>
+												<li>
+													<span class="checkout_title">
+														Sub Total
+													</span>
+													<span class="checkout_value">
+														$88
+													</span>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!--  -->
+								<div class="col-md-12">
+									<div class="checkout_proceed payment_method stripped vertical">
+										<button class="advanced_blocks_btn">
+											Proceed To Checkout
+										</button>
+										or
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="payment_options payment_method stripped vertical">
+										<a href="#" data-color="ffc43a" style="background: rgb(255, 196, 58);">
+											<img src="assets/images/payment/paypal.png" alt="Failed to load">
+										</a>
+										<a href="#" data-color="029dde" style="background: rgb(2, 157, 222);">
+											<img src="assets/images/payment/vimeo.png" alt="Failed to load">
+										</a>
+										<a href="#" data-color="003187" style="background: rgb(0, 49, 135);">
+											<img src="assets/images/payment/paypal-credit.png" alt="Failed to load">
+										</a>
+									</div>
+								</div>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<!--  -->
 
 	<!--  -->

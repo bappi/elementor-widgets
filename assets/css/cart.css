@@ -412,3 +412,186 @@
 .table.advanced_blocks_cart_table.stripped.advaced_blocks_table.hovered {
     border-bottom: 1px solid #efefef;
 }
+
+/*----------------------------------------
+----------------------------------------*/
+.checkout_proceed.payment_method.stripped {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    color: #15a083;
+    font-weight: 600;
+    padding: 30px 0;
+}
+
+.checkout_proceed.payment_method.stripped .advanced_blocks_btn {
+    background: #15a083;
+    border-radius: 25px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0 40px;
+    font-size: 16px;
+}
+
+.payment_options.payment_method.stripped {
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+    box-shadow: 0 0 5px rgba(1,0,15,.05);
+}
+
+.payment_options.payment_method.stripped a {
+    padding: 4px 50px;
+    border-radius: 25px;
+}
+
+.payment_options.payment_method.stripped a:not(:last-child) {
+    margin-right: 10px;
+}
+
+.advanced_block_total.default.horizontal.white.stripped.payment_method .proceed_checkout {
+    width: 100%;
+    background: transparent;
+}
+
+.advanced_block_total.default.vertical.white.stripped ul li {
+    flex-flow: row;
+    align-items: center;
+}
+
+.advanced_block_total.default.horizontal.white.stripped.payment_method ul li .checkout_title {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #3a3a3a;
+}
+
+.advanced_block_total.default.horizontal.white.stripped.payment_method ul li .checkout_value {
+    color: #15a083;
+    font-weight: 600;
+    font-size: 30px;
+    display: inline-flex;
+    padding-left: 10px;
+}
+
+.advanced_blcok_woocommerce_cart.default.horizontal.white.stripped.payment_method .table_head {
+    padding: 20px 20px 20px 20px;
+}
+
+.advanced_blcok_woocommerce_cart.default.horizontal.white.stripped.payment_method .table_head h4 {
+    font-weight: 600;
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 0;
+}
+
+.advanced_blcok_woocommerce_cart.default.horizontal.white.stripped.payment_method .table_head .advanced_blocks_btn {
+    border: 2px solid #15a083;
+    background: transparent;
+    font-size: 16px;
+    padding: 0 30px;
+    color: #15a083;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.advanced_blcok_woocommerce_cart.default.horizontal.white.stripped.payment_method .advanced_block_cart_action .cupon_code {
+    border-radius: 25px;
+}
+
+.advanced_blcok_woocommerce_cart.default.horizontal.white.stripped.payment_method .advanced_block_cart_action 
+ .advanced_blocks_btn.apply_cupon_btn {
+    border-radius: 25px;
+    background: #15a083;
+    padding: 0 35px;
+    margin-left: -37px;
+    line-height: 40px;
+}
+/*-----------------------------------------
+-----------------------------------------*/
+.payment_options.payment_method.stripped.vertical {
+    display: flex;
+    flex-flow: column;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-shadow: none;
+}
+
+.payment_options.payment_method.stripped.vertical a {
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+    padding: 7px 0;
+}
+
+.payment_options.payment_method.stripped.vertical a:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.total_cart {
+    padding: 35px 30px 35px 30px;
+    background: #ffffff;
+    margin-top: 30px;
+    box-shadow: 0px 0px 3px rgba(1,0,15,.10);
+    border-radius: 12px;
+}
+
+.advanced_block_total.default.horizontal.white.stripped.payment_method.vertical {
+    padding: 0 0 0 0;
+}
+
+.total_cart .advanced_block_total.default.horizontal.white.stripped.payment_method.vertical {
+    border: none;
+}
+
+.total_cart .advanced_block_total.default.horizontal.white.stripped.payment_method.vertical ul {
+    flex-flow: column;
+}
+
+.total_cart .advanced_block_total.default.horizontal.white.stripped.payment_method.vertical ul li {width: 100%;justify-content: space-between;}
+
+.total_cart .advanced_block_total.default.horizontal.white.stripped.payment_method.vertical ul li .checkout_value {
+    color: #222222;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.total_cart .advanced_block_total.default.horizontal.white.stripped.payment_method.vertical ul li:not(:last-child) {
+    margin-bottom: 34px;
+}
+
+.checkout_proceed.payment_method.stripped.vertical {
+    padding-bottom: 0;
+}
+
+.total_cart h4 {
+    font-size: 22px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.checkout_proceed.payment_method.stripped.vertical .advanced_blocks_btn {
+    background: #4a6cff;
+    box-shadow: 0px 15px 20px rgba(74,108,255,.20);
+}
+
+.advanced_blcok_woocommerce_cart.default.horizontal.white.stripped.payment_method.vertical .advanced_block_cart_action .advanced_blocks_btn.apply_cupon_btn {
+    background: #4a6cff;
+}
+/*------------------------------------------
+------------------------------------------*/
+
+.advanced_blcok_woocommerce_cart.default.horizontal.white.stripped.payment_method.vertical form {
+    box-shadow: 0 0px 3px rgba(1,0,15,.10);
+    border-radius: 10px;
+}
+
+.advanced_blcok_woocommerce_cart.default.horizontal.white.vertical .advanced_block_cart_action {
+    padding-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/*---------------------------------------
+---------------------------------------*/

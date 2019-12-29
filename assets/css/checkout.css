@@ -1,0 +1,179 @@
+
+.advanced_blocks_woo_commerce_notice_wrapper.default {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.advanced_blocks_woo_commerce_notice_wrapper.default .advanced_blocks_woo_commerce_notice {
+    line-height: 60px;
+    font-weight: 600;
+    color: #3a3a3a;
+}
+
+.advanced_blocks_woo_commerce_notice_wrapper.default .advanced_blocks_woo_commerce_notice a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.advanced_blocks_woo_commerce_notice_wrapper.default .view_cart_btn {
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 2px solid #1ca2ff;
+    padding-left: 15px;
+}
+
+.advanced_blocks_woo_commerce_notice_wrapper.default .view_cart_btn i {
+    font-size: 18px;
+    display: inline-flex;
+    padding-left: 10px;
+}
+
+.advanced_blocks_billing_form.default h4 {
+    color: #333333;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.advanced_blocks_billing_form.default {
+    padding: 50px 0 0 0;
+}
+
+.advanced_blocks_billing_form.default .advanced_blocks_field {
+    border: 1px solid #f1f1f1;
+    border-radius: 0;
+    line-height: 47px;
+    box-shadow: 0px 0px 1px rgba(0,0,0,.05);
+}
+
+.advanced_blocks_billing_form.default .advanced_blocks_label {
+    font-size: 15px;
+    font-weight: 400;
+    color: #7e7e7e;
+    display: inline-flex;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.advanced_blocks_billing_form.default .advanced_blocks_label span {
+    color: #f71011;
+    display: inline-block;
+}
+
+/*---------------------------------------
+---------------------------------------*/
+
+.advanced_blocks_order.default h3 {
+    font-weight: 600;
+    font-size: 22px;
+    color: #333333;
+    margin-bottom: 42px;
+}
+
+.advanced_blocks_order.default .order_details {
+    background: #ffffff;
+    box-shadow: 0px 0px 3px rgba(0,0,0,.05);
+}
+
+.advanced_blocks_order.default .order_details ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    padding: 40px  40px 40px 40px;
+}
+
+.advanced_blocks_order.default .order_details span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #3a3a3a;
+}
+
+.advanced_blocks_order.default .order_details li {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.advanced_blocks_order.default .order_details li:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.advanced_blocks_order.default .order_details .order_detials_top {
+    border-bottom: 1px solid #efecec;
+}
+
+
+.payment_option_box.default {
+    margin-top: 30px;
+    background: #ffffff;
+}
+
+.payment_option_box.default ul {
+    padding: 0px 0px 0px 0px;
+    list-style: none;
+}
+
+.payment_option_box.default .advanced_blocks_btn {
+    background: #1cc6ff;
+    width: 100%;
+    color: #ffffff;
+    line-height: 50px;
+}
+
+.payment_option_box.default {
+    padding: 40px 40px 40px 40px;
+}
+
+.payment_option_box.default .payment_option_body {
+    padding: 0 0px 0 30px;
+}
+
+.advanced_blocks_radio {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.advanced_blocks_radio 
+ span {
+    font-size: 14px;
+    color: #2f2f2f;
+    font-weight: 600;
+    display: inline-flex;
+    margin-left: 15px;
+}
+.advanced_blocks_radio span::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #1cc6ff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.advanced_blocks_radio span::after {
+    content: "";
+    position: absolute;
+    left: 3px;
+    height: 9px;width: 9px;background: #1cc6ff;border-radius: 50%;top: 50%;transform: translateY(-50%);}
+
+.payment_option_box.default .payment_option_body p {
+    line-height: 24px;
+    font-size: 14px;
+}
+/*---------------------------------------
+---------------------------------------*/
