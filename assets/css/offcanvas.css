@@ -1,0 +1,46 @@
+/**/
+.advanced_blocks_offcanvas{
+	display: none;
+}
+.advanced_blocks_offcanvas.right{
+	right: 0;
+	left: initial;
+}
+.advanced_blocks_offcanvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    z-index: 99;
+    background: rgba(255,255,255,.95);
+}
+.offcanvas_cancel {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+.offcanvas_content {
+    height: 100%;
+    width: 300px;
+    padding: 25px 25px 25px 25px;
+}
+
+.advanced_blocks_offcanvas.active {
+    display: block;
+}
+/**/
+
+/**/
+.advanced_blocks_offcanvas.slide{
+	transform: translateX(-300px);
+	transition: all 1s linear;
+	
+}
+.advanced_blocks_offcanvas.slide.active{
+	transform: translateX(0px);
+	
+}
+/**/
+
+/**/
+/**/
